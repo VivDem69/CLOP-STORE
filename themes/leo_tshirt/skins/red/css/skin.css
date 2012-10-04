@@ -1,0 +1,56 @@
+
+#header_logo {
+	background: url(../img/logo.png) left top no-repeat;
+}
+#header_right ul.pl-easy-menu{
+	border-top:3px solid #db6136 !important;
+}
+#header_user_info a:hover{color:#db6136!important}
+.sf-menu a{color:#db6136!important}
+#lof-prestalove-easy-menu.sf-menu a:hover,#lof-prestalove-easy-menu .sf-menu li.sfHover a,#lof-prestalove-easy-menu .sf-menu a.active,#lof-prestalove-easy-menu .sf-menu li:hover a {
+	color: #111 !important;
+}
+input.button_compare,#currencies_block_top .selected a, #currencies_block_top a:hover,#cart_block p#cart-buttons a#button_order_cart{background-color:#db6136 !important;}
+#cart_block h4{background-position:0 -269px !important;border-bottom:1px solid #db6136 !important;}
+#right_column div.block{border-top:3px solid #db6136;}
+div.exclusive h4 a,#categories_block_left  h4.heading-hightlight,h4.heading-hightlight, h4.bg-heading, .lof-module-featured.default .tabs-panel li, #module-blockwishlist-mywishlist h2, #cms #center_column .rte h2, #cms #center_column .mceContentBody h2,.products_block li h5 a,#categories_block_left .tree li a:hover,.lof-module-newproduct.default li.lof-tab a.active,.lof-module-newproduct.default .lof-item-content h4 a,.lof-module-newproduct.default .view  {color:#db6136!important}
+#categories_block_left .tree li a{
+	background-position:7px -177px !important;
+}
+.lofbtnextpre .lof-new-pre a{background-position:left -135px;}
+.lofbtnextpre .lof-new-next a{background-position:right -135px;}
+.lof-module-newproduct.default .lof-add-cart{background-position:right -158px;}
+.lof-module-newproduct.default .lof-content-main-item .bd-lof-content{border-bottom:3px solid #db6136!important}
+#right_column #search_button{background:#DB6136 !important;}
+/* product */
+ul#product_list li h3 a{color:#db6136 !important;}
+ul#product_list li{border-bottom:4px solid #db6136}
+ul#product_list li .lof-add-cart{background-position:right -168px;}
+li#pagination_previous{background-position:0 -164px;}
+ul.pagination li:hover, ul.pagination li.current{background-position: -37px -164px;}
+li#pagination_next{background-position:-110px -164px;}
+#add_to_cart input.exclusive, input.exclusive_large,#our_price_display,ul.idTabsShort li a:hover, ul.idTabsShort li a.selected{color:#db6136 !important;}
+#primary_block #buy_block #add_to_cart{background-position:0 -175px;}
+/*SLIDESHOW
+------------------*/
+.camera_amber_skin .camera_prev > span{background-position:left -207px;}
+.camera_amber_skin .camera_next > span{background-position:right -207px;}
+.camera_amber_skin .camera_prev > span:hover{background-position:left bottom;}
+.camera_amber_skin .camera_next > span:hover{background-position:right bottom;}
+.lof_price{color:#db6136;}
+.lof_detail{background-position:0 -224px;}
+/*FOOTER
+---------*/
+#newsletter_block_left input[type="submit"]:hover, #footernewsletter input.button:hover{background:#db6136 !important;}
+#lofadvafooterfooter #lofadva-pos-2 li.lof-text li.facebook a:hover{background-position:0 -254px;}
+#lofadvafooterfooter #lofadva-pos-2 li.lof-text li.twitter a:hover{background-position:-60px -254px}
+#lofadvafooterfooter #lofadva-pos-2 li.lof-text li.skype a:hover{background-position:-120px -254px;}
+#lofadvafooterfooter #lofadva-pos-2 li.lof-text li.youtube a:hover{background-position:-180px -254px;}
+#lofadvafooterfooter #lofadva-pos-3 li .loftop a:hover{background-position:-1px -339px;}
+.jta-tweet-profile-image{background-position:0 -182px;}
+#lofadvafooterfooter #lofadva-pos-2 li.link{background-position:3px -187px;}
+#lofadvafooterfooter #lofadva-pos-2 li.link a,#footer a{color:#db6136 !important;}
+#lofadvafooterfooter #lofadva-pos-2 li.link a:hover{color:#000 !important;}
+/*COLOR
+/*General*/
+

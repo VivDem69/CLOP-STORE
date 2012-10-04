@@ -1,0 +1,369 @@
+.lofmegamenuwhite {
+	margin-bottom:10px;
+}
+.lofmegamenuwhite .ddsmoothmenu{
+	font: bold 13px ;
+	background: url("images/nav_bg.gif") repeat-x scroll 0 0 transparent;
+	width: 100%;
+	height:30px;
+}
+
+.lofmegamenuwhite .ddsmoothmenu ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.lofmegamenuwhite .ddsmoothmenu .lofcolumn{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+
+.lofmegamenuwhite .ddsmoothmenu ul.leval0{
+	border-right: medium none #7A5B41;
+}
+
+.lofmegamenuwhite .ddsmoothmenu ul#lofmegamenu{
+}
+
+/*Top level list items*/
+.lofmegamenuwhite .ddsmoothmenu ul#lofmegamenu > li{
+	position: relative;
+	display: inline;
+	float: left;
+	margin:0 !important;
+	padding:7px;
+}
+/*Top level list items*/
+.lofmegamenuwhite .ddsmoothmenu ul li{
+	position: relative;
+}
+
+/*Top level menu link items style*/
+.lofmegamenuwhite .ddsmoothmenu ul#lofmegamenu >li.itemfirst >a{	line-height:1.2;
+	background:none;
+}
+.lofmegamenuwhite .ddsmoothmenu ul#lofmegamenu >li >a{
+	display: block;
+    font: 12px/1.2 Arial;
+    margin: 0;
+    padding:0 10px;
+    text-decoration: none;
+	color:#000;
+	
+}
+/*Top level menu link items style*/
+.lofmegamenuwhite .ddsmoothmenu ul#lofmegamenu >li:hover{
+	background:#e9edeb;	color:#6a947d !important;
+}
+/*Top level menu link items style*/
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu>li>a span.has-image 
+{
+	padding:0 0 0 25px;
+	display:inline-block;
+}
+.lofmegamenuwhite .ddsmoothmenu ul#lofmegamenu >li:hover > a{
+	background:#e9edeb;
+	color:#6a947d !important;
+}
+.lofmegamenuwhite .ddsmoothmenu >ul >li >a:hover {
+    background:#e9edeb;
+	color:#6a947d !important;
+}
+* html .lofmegamenuwhite .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+	display: inline-block;
+}
+
+.lofmegamenuwhite .ddsmoothmenu ul li a:link, .lofmegamenuwhite .ddsmoothmenu ul li a:visited{
+	color: #666;
+}
+	
+/*1st sub level menu*/
+.lofmegamenuwhite .ddsmoothmenu div.menunongroup{
+	background-color: #fff;
+	border: 4px solid #dfe8e4;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div >ul {
+	background-color: #fff;
+	border: 4px solid #dfe8e4;
+}
+/*1st sub level menu*/
+.lofmegamenuwhite .ddsmoothmenu ul li ul.menunongroup, .lofmegamenuwhite .ddsmoothmenu .lofitem0 > ul{
+	position: absolute;
+	left: 0;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+	
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.lofmegamenuwhite .ddsmoothmenu ul li ul li{
+	padding: 10px 0 5px;	margin-right:10px;
+	display: list-item;
+	float: none;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.lofmegamenuwhite .ddsmoothmenu >ul> li>div>div> ul>li{
+	margin-right:10px;
+	padding-top:10px;
+}
+.lofmegamenuwhite .ddsmoothmenu >ul> li>div>div> ul>li.itemlast{
+	border-bottom:none;
+}
+.lofmegamenuwhite .ddsmoothmenu >ul> li>div>div> ul>li>div>div>ul>li{
+	margin-right:10px;
+	padding-top:10px;
+}
+.lofmegamenuwhite .ddsmoothmenu >ul> li>div>div> ul>li>div>div>ul>li.itemlast{
+	border-bottom:none;
+}
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.lofmegamenuwhite .ddsmoothmenu ul li ul li ul{
+	top: 0;
+}
+
+/* Sub level menu links style */
+.lofmegamenuwhite .ddsmoothmenu ul li ul li a{
+	font: normal 12px Arial;
+	margin: 0;
+	border-top-width: 0;
+	text-decoration:none;
+}
+
+/* Holly Hack for IE \*/
+* html .lofmegamenuwhite .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.lofmegamenuwhite .downarrowclass{
+	position: absolute;
+	top: 12px;
+	right: 7px;
+}
+
+.lofmegamenuwhite .rightarrowclass{
+	position: absolute;
+	top: 6px;
+	right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.lofmegamenuwhite .ddshadow{ /*shadow for NON CSS3 capable browsers*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	background: silver;
+}
+
+.lofmegamenuwhite .toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+	opacity: 0.8;
+}
+.lofmegamenuwhite li.megagroup ul{
+	width:500px;
+}
+.lofmegamenuwhite .ddsmoothmenu li.megagroup ul li{
+	float:left;
+	width:166px;
+}
+.lofmegamenuwhite .ddsmoothmenu ul li div.menunongroup,
+.lofmegamenuwhite .ddsmoothmenu .lofitem0 > div.menugroup {
+	position: absolute;
+	left: 0;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+	background-color: #fff;
+	box-shadow: 1px 2px 4px 2px #ddd;
+	 -moz-box-shadow:1px 2px 4px 2px #ddd;
+	-webkit-box-shadow:1px 2px 4px 2px #ddd;
+	padding-left:15px;
+}
+/* lof edit CSS */.lofmegamenuwhite .ddsmoothmenu #lofmegamenu>li{	background: url(images/naviright.png) no-repeat scroll right 8px transparent;	border-bottom: none;	/*margin-right:10px;*/}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu li.menugroup {
+	border-bottom: none;	margin-right:10px;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu li.menugroup  ul.menugroup > li {
+	float:none;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu div.lofcolunm{
+	float:left;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu li.menunongroup ul.menunongroup > li {
+	float:left;
+}
+
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu  span.lof-menu-title{
+	display: block;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu .lofitem0 > a span.lof-menu-title{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu li ul .menugroup > a span.lof-menu-title{
+    text-transform:capitalize;
+	border:1px solid #ddd;
+	border-radius:3px;	margin-right:10px;
+	padding:5px 10px;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu li ul .menugroup > a:hover{
+	color:#666;
+}
+
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu li> div > div > ul >li >a span.lof-menu-title{
+	text-transform: capitalize;
+	font:12px Arial;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu li ul li >a:hover{
+	color: #D6A847;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu li ul .menugroup ul li.menugroup > a span.lof-menu-title{
+	text-transform: capitalize;
+	font:12px Arial;
+	border:1px solid #ddd;
+	border-radius:3px;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu  span.lof-menu-desc{
+	display: none;
+    font-weight: normal;
+	font-size:10px;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu  > span.lof-menu-desc{
+	padding-left: 15px;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu  span.has-image{
+	display:block;
+	padding: 5px 5px 5px 25px;
+}
+
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub > a span.lof-menu-title {
+    padding:0 15px;
+}
+
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub > a span.lof-menu-desc {
+    padding:0 15px;
+}
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub ul li a span.lof-menu-title {
+    padding-left: 0px;
+}
+
+.lofmegamenuwhite .ddsmoothmenu .level0  ul.menunongroup {
+	border: 1px solid #666666;
+}
+
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub ul li.lofsub a span.lof-menu-title{
+	background: url("images/right.png") no-repeat scroll right center transparent;
+    padding-right: 15px;
+	font:12px Arial, Helvetica, sans-serif;
+	text-transform:capitalize;
+}
+.lofmegamenuwhite .ddsmoothmenu .level0 .lofsub>div>div>ul>li>div>ul>li.lofsub{
+	padding-left:0 ;
+}
+
+.lofmegamenuwhite .ddsmoothmenu ul li.active{ 
+	background: #E9EDEB !important;
+}
+
+.lofmegamenuwhite .ddsmoothmenu .level0 .lofnonsub a span.lof-menu-title {
+	background: none;
+	text-transform:capitalize;
+	font: 12px Arial;
+}
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub ul li.lofnonsub a span.lof-menu-title{
+	background: none;
+}
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub ul li.lofnonsub{
+	padding-left:0;
+}
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub ul li.itemlast{
+	border-bottom:none!important;
+}
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub > ul >li.lofnonsub{
+	padding-left:15px;
+}
+.lofmegamenuwhite .ddsmoothmenu .level0  .lofsub ul li.menugroup > a span.lof-menu-title{
+	background: none;
+}
+/*-----------------------------*/
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu div#search_block_top{
+	min-width: 250px;
+	padding:3px 0;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu div#search_block_top input#search_query_top{
+	float:left;
+	height:16px;
+}
+.lofmegamenuwhite .ddsmoothmenu #lofmegamenu div#search_block_top input.button{
+	background:#6a947d;
+	text-transform:uppercase;
+	color:#fff !important;
+	width:90px;
+	line-height:18px;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div >ul#first-languages {
+	border:none;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div#languages_block_top {
+	min-width: 60px;
+    position: static;
+	line-height:1;
+    top: 0;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div#currencies_block_top{
+	float: none;
+    height: 30px;
+    line-height: 28px;
+    margin: 0 !important;
+    position: static;
+    right: 0;
+    top: 0;
+	width:auto;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div#currencies_block_top p{
+	text-indent:-9999px;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div >ul#first-languages li.selected_language,.lofmegamenuwhite .ddsmoothmenu > ul > li > div >ul#first-languages li{
+	  margin: 0 5px 0 0 !important;
+}
+.lofmegamenuwhite .ddsmoothmenu ul li  div#currencies_block_top ul li{
+	padding: 6px 0 0 0;
+	border-bottom:none;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div#header_user{
+	margin:0 !important;
+	height:30px;
+	line-height:28px;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div#header_user #shopping_cart a,.lofmegamenuwhite .ddsmoothmenu > ul > li > div#header_user #your_account a{
+	color:#000;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div#header_user p{
+	display:none;
+} 
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div#header_user span{
+	color:#6A947D;
+}
+.lofmegamenuwhite .ddsmoothmenu ul li  div#header_user ul li{
+	padding:0;
+}
+.lofmegamenuwhite .ddsmoothmenu > ul > li > div >ul#header_nav {
+	border:none;
+}
+.lofmegamenuwhite .ddsmoothmenu ul#lofmegamenu > li.has-module{
+	border-right:none;
+	background:none;
+	float:right;
+	padding:3px 0;
+	line-height:1;
+}
+.lofmegamenuwhite .ddsmoothmenu ul li ul#first-languages li.selected_language,.lofmegamenuwhite .ddsmoothmenu ul li ul#first-languages li{
+	border-bottom:none;
+}
+.lofmegamenuwhite .ddsmoothmenu ul li ul li div.block .block_content{
+	padding:6px 6px 10px !important;
+}

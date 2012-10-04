@@ -1,0 +1,50 @@
+/* block top user information */
+#header_right #header_user {
+    float: right;
+    height: 34px;
+    text-align: right;
+    width: auto;
+}
+#header_user a {
+	color: #FFFFFF;	
+}
+#header_user_info a {
+    border-right: 2px solid #FFFFFF;
+    line-height: 33px;
+    margin: 10px 0 10px 10px;
+    padding-right: 10px;
+	position:relative;
+	z-index:1;
+}
+#header_user_info a:hover { color: #1576a8;}
+#header_user_info a.Shoppingcart,#header_user_info a.logout {
+	border-right:none;
+}
+#header_user p { color: #878787;background:url(../../../img/default/bg-current.png) repeat-x scroll 0 0 transparent;padding: 0 10px;}
+#header_user span { font-weight: bold }
+#header_user ul { margin-top: 0}
+#header_user li {
+	float: right;
+	margin-left: 0.5em;
+	white-space: nowrap;
+	width: 160px;
+	font-weight: bold;
+	color: #fff;
+	text-align: left;
+}
+#header_user #shopping_cart, #header_user #your_account { font-size: 0.9em }
+#header_user li#your_account { margin-left: 0 }
+#header_user #shopping_cart a, #header_user #your_account a {
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding:12px 0 11px 45px;
+	height: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+#header_user li  span {
+	line-height: 34px;
+}
+#header_user #shopping_cart a { background-image: url('../../../img/icon/cart.png') }
+#header_user #your_account a { background-image: url('../../../img/icon/account.png') }

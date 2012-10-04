@@ -1,0 +1,100 @@
+
+
+.lof-slidingcaption-wrap.default .sliding-buttons-same a.next, .lof-slidingcaption-wrap.default .sliding-buttons-same a.prev{
+     background-image: url(images/same-arrow.png);
+     text-indent:-9999px;
+} 
+.lof-slidingcaption-wrap.default .sliding-buttons-same a.next{
+    background-position: -22px 0;
+    background-repeat: no-repeat;
+    height: 22px;
+    position: absolute;
+    right: -20px;
+    width: 22px;
+    z-index: 9999;
+}
+.lof-slidingcaption-wrap.default .sliding-buttons-same {
+    position: absolute;
+    right: 30px;
+    top: -34px;
+    width: 15px;
+}
+.lof-slidingcaption-wrap.default .lof-sliding-featured .sliding-feature-same-content{
+    position: relative;
+    overflow: hidden;
+}
+.lof-slidingcaption-wrap.default .sliding-features-home.same{
+    position: relative;
+}
+.lof-slidingcaption-wrap.default .sliding-buttons-same a.prev{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 22px;
+    left: -11px;
+    position: absolute;
+    width: 22px;
+    z-index: 9999;
+}
+.lof-slidingcaption-wrap.default .sliding-buttons-same a.prev, .lof-slidingcaption-wrap.default .sliding-buttons-same a.next{
+    opacity:0.6;
+}
+.lof-slidingcaption-wrap.default .sliding-buttons-same a.prev:hover, .lof-slidingcaption-wrap.default .sliding-buttons-same a.next:hover{
+    opacity:1.0;
+}
+.lof-slidingcaption-wrap.default .lof-sliding-featured strong.same-title {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    font-family: 'CommunistRegular', sans-serif;
+   
+}
+.lof-slidingcaption-wrap.default .sliding-features-home.same .lof-sliding-featured li.classno{
+    margin:0px;
+}
+.lof-slidingcaption-wrap.default .lof-sliding-featured.push .sliding-feature-same-content {
+    overflow: hidden;
+    position: relative;
+}
+.lof-slidingcaption-wrap.default .lof-sliding-featured .lof-sliding-feature-same {
+    font-family: "Helvetica Nueue", Helvetica, Arial, sans-serif;
+    position: relative;
+    clear: left;
+    overflow: hidden;
+    padding: 0 0 10px 0;
+    background: url(images/featured-shadow.png) no-repeat bottom right;
+}
+.lof-slidingcaption-wrap.default .lof-sliding-featured.scroll .sliding-feature-same-image {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.lof-slidingcaption-wrap.default .lof-sliding-featured.scroll .sliding-feature-same-image-push {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.lof-slidingcaption-wrap.default .lof-sliding-featured.push .sliding-feature-same-image {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.lof-slidingcaption-wrap.default .lof-sliding-featured.push .sliding-feature-same-image-push {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.lof-slidingtabs-panel{
+    border-bottom: 1px #DDDDDD solid;
+    height:33px;
+}
+.lof-slidingcaption-wrap.default .sliding-feature-same-content .sliding-detail{
+    position: relative;
+    background: url(images/sreadmore.png) no-repeat;
+    background-position: 0px 3px;
+    margin-left:12px;
+    padding-left:20px;
+    text-decoration:none;
+}

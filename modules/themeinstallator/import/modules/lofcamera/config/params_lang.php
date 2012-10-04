@@ -1,0 +1,32 @@
+<?php 
+$this->moduleObj->l('Global Option');
+$this->moduleObj->l('Theme');
+$this->moduleObj->l('Show/hide title');
+$this->moduleObj->l('Title');
+$this->moduleObj->l('Show/hide Description');
+$this->moduleObj->l('Title Linkable');
+$this->moduleObj->l('No follow link');
+$this->moduleObj->l('if Yes add nofollow index for all of link (for SEO), if no using normal link');
+$this->moduleObj->l('Module Width');
+$this->moduleObj->l('Images Options');
+$this->moduleObj->l('Primary width');
+$this->moduleObj->l('Primary height');
+$this->moduleObj->l('Thumbnail width');
+$this->moduleObj->l('Thumbnail height');
+$this->moduleObj->l('Upload Images');
+$this->moduleObj->l('Images');
+$this->moduleObj->l('Slide Option');
+$this->moduleObj->l('Slide Height');
+$this->moduleObj->l('here you can type pixels (for instance 300px), a percentage (relative to the width of the slideshow, for instance 50%) or auto');
+$this->moduleObj->l('Skin');
+$this->moduleObj->l('Auto play');
+$this->moduleObj->l('Show thumbnails');
+$this->moduleObj->l('Bar Drirection');
+$this->moduleObj->l('Effect');
+$this->moduleObj->l('Only show button when hover');
+$this->moduleObj->l('Show Pagination');
+$this->moduleObj->l('Play/Pause button');
+$this->moduleObj->l('Pause on hover');
+$this->moduleObj->l('Slide delay');
+$this->moduleObj->l('Effect duration');
+ ?>

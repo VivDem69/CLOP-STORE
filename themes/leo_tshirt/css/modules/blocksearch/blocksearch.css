@@ -1,0 +1,67 @@
+/* block top search */
+#right_column #search_block_right {
+	position: abosolute;
+	padding: 0;
+	border:none;
+	background:url(../../../img/default/bg-search.png) repeat-x scroll 0 0 #fff;
+}
+#right_column #search_button {
+	background: none repeat scroll 0 0 #1576A8;
+    border: 0 none;
+    color: #FFFFFF;
+    display: block;
+    font: bold 12px 'Arvo';
+    height: 27px;
+    margin-left: 0;
+    text-transform: uppercase;
+    width: 35px;
+}
+#search_query_block {
+	background: url(../../../img/default/bg-current.png) repeat-x scroll 0 0 transparent;
+    border: 1px solid #ddd;
+    border-radius: 0 0 0 0;
+    color: #494949;
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 25px;
+    line-height: 25px;
+    margin:0 5px 0 0;
+    padding: 0 5px;
+    width: 125px;
+}
+*+html #search_query_block {
+	line-height: 25px;
+}
+*+hmtl #searchbox .button_mini {
+	display: block;
+	text-indent: -99999px;
+}
+#searchbox .button {
+    background: url(../../../img/icon-search.png) no-repeat scroll 0 0 transparent!important;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    cursor: pointer;
+    display: inline;
+    height: 20px;
+    margin-left: 0;
+    margin-top: 5px;
+    position: relative;
+    width: 20px;
+	text-indent: -99999px;
+}
+#header_right #search_block_top label, #header_right #search_block_top input { float: left }
+
+/* block left column "Quick search" */
+#search_block_left input { margin: 2px 0 0 0 }
+#search_block_left .search_query { width: 11em }
+#search_button { display: inline }
+#search_query_top {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #606060;
+    padding: 7px 7px 7px 10px;
+    position: relative;
+    width: 132px;
+    z-index: 50;
+}

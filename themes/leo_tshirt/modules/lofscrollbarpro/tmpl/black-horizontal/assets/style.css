@@ -1,0 +1,576 @@
+.lof-scrollbar-black{
+    overflow: hidden;
+}
+.mcs_container{
+	position:relative; 
+	/*margin: 0 0 0 10px;*/
+	width:260px; 
+	height:600px; 
+	padding:0 10px; 
+	
+}
+.mcs_container .customScrollBox{
+	position:relative; height:100%; 
+	overflow:hidden;
+}
+.mcs_container .customScrollBox .container{
+	position:relative; 
+	width:240px; 
+	top:0; 
+	float:left;
+}
+
+.mcs_container .customScrollBox .content p{
+	padding:0 5px; 
+	margin:10px 0; 
+	color:#364873; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:13px; 
+	line-height:20px;
+}
+.mcs_container .customScrollBox .content p.alt{
+	padding:10px 5px; 
+	margin:10px 0; 
+	color:#364873; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	font-size:17px; 
+	line-height:19px; 
+	color:#999;
+}
+.mcs_container .customScrollBox img{
+	border:5px solid #fff;
+}
+.mcs_container .dragger_container{
+	background: none repeat scroll 0 0 #999999;
+    border-radius: 2px 2px 2px 2px;
+    cursor: s-resize;
+    float: left;
+    height: 425px;
+    margin: 27px 0 0 10px;
+    position: relative;
+    width: 4px;
+	
+	}
+.mcs_container .dragger{
+	position:absolute; 
+	width:4px; 
+	height:60px; 
+	background:#000; 
+	text-align:center; 
+	line-height:60px; 
+	color:#666; 
+	overflow:hidden; 
+	cursor:pointer; 
+	-moz-border-radius:2px; 
+	-khtml-border-radius:2px; 
+	-webkit-border-radius:2px; 
+	border-radius:2px;
+}
+.mcs_container .dragger_pressed{
+	position:absolute; 
+	width:4px; 
+	margin-left:-1px; 
+	height:60px; 
+	background:#999; 
+	text-align:center; 
+	line-height:60px; 
+	color:#666; 
+	overflow:hidden; 
+	-moz-border-radius:4px; 
+	-khtml-border-radius:4px; 
+	-webkit-border-radius:4px; 
+	border-radius:4px; 
+	cursor:s-resize;
+}
+.mcs_container .scrollUpBtn,.mcs_container .scrollDownBtn{
+	position:absolute; 
+	display:inline-block; 
+	width:14px; 
+	height:15px; 
+	margin-right:11px; 
+	text-decoration:none; 
+	right:0; filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	-khtml-opacity:0.5; 
+	opacity:0.5;
+}
+.lof-scrollbar-black .scrollUpBtn{
+    background: url(images/arrow.png) no-repeat transparent;
+    display: inline-block;
+    height: 21px;    
+    text-decoration: none;
+    width: 19px;
+    margin-right: 6px;
+    line-height: 12px;   
+}
+.lof-scrollbar-black .scrollDownBtn{
+    background:url(images/arrow.png) 0 -21px no-repeat transparent;
+    display: inline-block;
+    height: 21px;   
+    text-decoration: none;
+    width: 19px;
+    line-height: 12px;
+}
+.mcs_container .scrollUpBtn:hover,.mcs_container .scrollDownBtn:hover{
+	filter:alpha(opacity=70); 
+	-moz-opacity:0.7; 
+	-khtml-opacity:0.7; 
+	opacity:0.7;
+}
+.mcs_container .dragger_container{display:none;}
+
+.lof-scrollbar-black-pa{
+    position: relative;
+}
+.lof-parrent {
+	border: 1px dashed #D0D3D8;
+    border-radius: 4px 4px 4px 4px;
+	margin: 10px 0 0 10px;
+}
+
+.lof-parrent .lof-v-title{
+	margin: 5px 0 5px 10px;
+}
+.lof-parrent .lof-v-title h4{
+	color: #CC3300;
+	font-size: 15px;
+	font-family: "Lobster",Arial,Helvetica,sans-serif;
+}
+
+.lof-parrent .lof-form-compare .lof-compare{
+    background: none repeat scroll 0 0 #F6F6F1;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    color: #CC3300 !important;
+    cursor: pointer;
+    height: 19px;
+    margin-right: 5px;
+    min-width: 66px;
+    overflow: visible;
+    padding: 1px 10px 3px 10px;
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    width: auto;
+}
+
+.lof-parrent .lof-form-compare .lof-compare:hover{
+    background: none repeat scroll 0 0 #D0D3D8;
+}
+
+.lof-scrollbar-black .lof-mod-title{
+    background: url(images/cont_heading_table.gif) repeat-x left center #999999;
+    color: white;
+    font-size: 1.27em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #666666; 
+    border-top: 1px solid #666666; 
+    height: 31px;      
+}
+.lof-scrollbar-black .lof-mod-title span{
+    background: url(images/header.png) repeat-y left center transparent;
+    padding: 5px 5px 5px 16px;
+    display: block;
+    height: 33px;
+    line-height: 20px;
+}
+.lof-scrollbar-black .products_block  ul  li{
+	list-style-type: none;
+}
+.lof-scrollbar-black > .lof-toggler{        
+    cursor:hand;
+    cursor:pointer;
+    overflow:hidden;
+    border-bottom:1px dotted #DEDEDE;
+    font-size:105%;    
+    position:relative;
+    font-weight:bold;
+    color: #666666;
+}
+.lof-scrollbar-black .lof-heder-left{
+    background:url(images/default.png) no-repeat scroll 0 0 transparent;    
+    width: 23px;
+    height: 32px;
+    float: left;
+}
+.lof-scrollbar-black .lof-heder-right{
+    background:url(images/bannerr.png) repeat-x scroll 0 0 transparent;    
+    height: 32px;
+    width: 533px;
+    float: left;
+}
+.lof-scrollbar-black .lof-heder-right span{
+    margin-left: 10px;
+    line-height: 32px;
+}
+.lof-scrollbar-black .lof-toggler .lof-title a {
+	color:#656556;
+}
+.lof-scrollbar-black .lof-title  {
+	height: 36px;
+    overflow: hidden;
+}
+.lof-scrollbar-black .lof-toggler .lof-title a:visited  {
+	color:#474739;
+}
+
+.lof-scrollbar-black > .lof-toggler img {
+    padding: 4px 0px 0 8px!important;
+    margin:0!important;
+    float:left
+}
+.lof-scrollbar-black > .lof-toggler span.lof-title{
+    padding-left:12px;	  
+}
+.lof-scrollbar-black > .lof-toggler span.lof-subdesc{
+    font-size:85%;
+    font-weight:normal
+}
+.lof-scrollbar-black .lof-element{
+	overflow:hidden;
+    position: relative;
+}
+.lof-scrollbar-black .lof-active .lof-heder-left{
+    background:url(images/default.png) no-repeat scroll 0 -32px transparent; 
+}
+.lof-scrollbar-black .lof-active .lof-heder-right{
+    color: white;
+    background:url(images/bannerr.png) repeat-x scroll 0 -32px transparent;
+}
+.lof-scrollbar-black .lof-inner{ padding-top:12px; padding:12px 5px 10px 5px}
+.lof-scrollbar-black div.lof-title h5 a{
+    color: #E0E7EA !important;
+    font-size: 1.2em !important;
+}
+.lof-scrollbar-black .lof-image{ margin:2px 5px; }
+.lof-scrollbar-black .lof-title h5 a {color: #374853;font-size: 1.1em;}
+.lof-scrollbar-black .lof-pro-left a{float: left;margin: 2px 5px !important;}
+.lof-scrollbar-black .lof-pro-left div.lof-comparator{float: right;}
+.lof-scrollbar-black .lof-inner{ padding-top:12px; padding:12px 5px 10px 5px; border: 1px solid #D0D3D8; margin-bottom: 5px;}
+.lof-scrollbar-black .lof-item-1{ background-color:#F6F6F1;}
+.lof-scrollbar-black .lof-item-0{ background-color:#fff; margin-top:0px}
+
+.lof-scrollbar-black .lof-viewdetail{width: 100%;text-align: right;margin-bottom: 7px;width: 99%;}
+.lof-scrollbar-black .lof-pro-left a.lof-addcart{    
+    background: url(images/button_marker.gif) no-repeat scroll left center #BA1010;
+    border: 1px solid #BA1010;
+    padding: 0 14px 0 12px;
+    cursor: pointer;
+    overflow: visible;
+    width: auto;
+    color: white;
+}
+.lof-scrollbar-black .lof-h-button{    
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+.lof-scrollbar-black .lof-new{
+    background: url(images/status.png) 0 -98px no-repeat transparent;
+    position: absolute;
+    display: block;
+    width: 108px;
+    height: 98px;
+    top: 0;left: 0;
+}
+.lof-scrollbar-black .lof-sale{
+    background: url(images/saleoff.png) no-repeat scroll 0 0 transparent;    
+    display: block;
+    height: 98px;
+    position: absolute;
+    right: 0;bottom: 0px;
+    width: 108px;
+}
+.lof-scrollbar-black .lof-feature{
+    background: url(images/status.png) no-repeat transparent;
+    position: absolute;
+    display: block;
+    width: 108px;
+    height: 98px;
+    top: 0;left: 0;    
+}
+.lof-scrollbar-black  a.lof-addcart{    
+    background: url(images/addtocard.png) no-repeat transparent;    
+    cursor: pointer;
+    overflow: visible;
+    width: 39px;
+    height: 39px;
+    color: white;
+	float: right;   
+    padding: 0 0 0 10px;
+    text-indent: -9999px;
+    white-space: nowrap;
+}
+
+.lof-scrollbar-black .lof-pro-left a.lof-view{
+    background: none no-repeat scroll left center #414141;
+    border: 1px solid #414141;
+    padding: 0 14px 0 12px;
+    cursor: pointer;
+    overflow: visible;
+    width: auto;
+    color: red !important;
+    min-width: 62px;
+}
+.lof-scrollbar-black-pa a.lof-view{
+    background: none;    
+    color: red !important;
+    cursor: pointer;      
+    overflow: visible;
+    padding: 0;    	
+    float: left;
+    
+    text-align: left;
+}
+
+.lof-scrollbar-black .lof-compare1{
+    background: none repeat scroll 0 0 #F6F6F1;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    color: #CC3300 !important;
+    cursor: pointer;
+    height: 24px;
+    margin-right: 5px;
+    min-width: 66px;
+    overflow: visible;
+    padding: 3px 3px 10px;
+	*padding-top:2px;
+    position: absolute;
+    right: 57px;
+    top: 6px;
+    width: auto;
+}
+.lof-scrollbar-black .lof-title-module{
+    position: absolute;
+    right: 18px;
+    top: 27px;
+    width: 48px;
+    z-index: 2;
+}
+.lof-scrollbar-black .lof-title-module h4{
+    color: #CC3300;
+	font-size: 15px;
+	font-family: "Lobster",Arial,Helvetica,sans-serif;
+}
+.lof-scrollbar-black .lof-compare:hover{
+    background: url(images/bg_button.gif) no-repeat scroll 0 0 #202020;
+}
+
+.lof-scrollbar-black .lof-compare1:hover{
+    background: none repeat scroll 0 0 #D0D3D8;
+}
+
+.lof-scrollbar-black .comparator{
+    margin-left:0px;
+}
+
+.lof-scrollbar-black .lof-viewdetail a{color: #374853;background:url(images/readmore.png) no-repeat right 0;padding:0 20px 1px 0;font-weight: bold;height: 17px;display: block;}
+.lof-scrollbar-black .lof-price{background: url(images/sep_price.gif) no-repeat scroll right 5px transparent;float: left;width: 86px;margin-right: 10px;padding-right: 13px;}
+.lof-scrollbar-black .lof-price1{
+    float: right;
+    font-size: 13px;
+    text-align: right;
+    width: 88px;   
+}
+.lof-scrollbar-black .lof-price span.price{color: #A1D800!important;font-size: 1.27em!important;}
+.lof-scrollbar-black .side-left-desc { background:url(images/side_desc.gif) 0 0 repeat-y #F6F6F1; margin:10px 0 11px 0;}
+.lof-scrollbar-black .side-right-desc { background:url(images/side_desc.gif) right 0 repeat-y;}
+.lof-scrollbar-black .side-top-desc { background:url(images/side_desc.gif) 0 0 repeat-x;}
+.lof-scrollbar-black .side-bot-desc { background:url(images/side_desc.gif) 0 bottom repeat-x;}
+.lof-scrollbar-black .lof-pro-name{
+    float: left;
+    width: 205px;
+    overflow: hidden;
+    display: inline-block;
+}
+.lof-scrollbar-black .lof-pro-name a{
+    color: #E0E7EA;
+    font-family: 'Folks-Normal',Arial,sans-serif;
+    font-size: 16px;    
+    text-decoration: none;
+}
+.lof-scrollbar-black .lof-sep{
+    color: white;
+    float: right;
+}
+.lof-scrollbar-black .lof-showcomparator{float: left;padding-top: 5px;}
+.lof-scrollbar-black .lof-showcomparator1{
+    color: white;
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;}
+.lof-scrollbar-black .lof-img{width: 30%; text-align: center;float: left;}
+
+.lof-scrollbar-black .lof-item-img{
+    background: none repeat scroll 0 0 #050505;
+    border-bottom: 1px solid #2A2A2A;
+    height: 225px;
+    margin-bottom: 3px;
+    padding: 9px;
+    width: 295px;
+}
+
+.lof-scrollbar-black .lof-img1{
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+.lof-scrollbar-black .lof-img1 img{
+    max-height: 227px;
+}
+.lof-scrollbar-black ul li {
+	float: left;
+    list-style: none outside none;
+    margin: 18px 3px 5px;
+    width: 165px;
+}
+.lof-scrollbar-black .lof-img a.product_image{ margin: 0 auto!important; }
+.lof-scrollbar-black .lof-pro-left{float: left;width: 70%;}
+.lof-scrollbar-black .left-top-desc{ background:url(images/left_top_desc.gif) left top no-repeat;}
+.left-top-desc{ background:url(../images/left_top_desc.gif) left top no-repeat;}
+.lof-scrollbar-black .right-top-desc{ background:url(images/right_top_desc.gif) right top no-repeat;}
+.lof-scrollbar-black .left-bot-desc{ background:url(images/left_bot_desc.gif) left bottom no-repeat;}
+.lof-scrollbar-black .right-bot-desc{ background:url(images/right_bot_desc.gif) right bottom no-repeat; width:100%;}
+.lof-scrollbar-black .desc {
+    color: #545454;
+    font-size: 12px;
+    line-height: 13px;
+    padding: 14px 5px 15px 16px;
+}
+.lof-scrollbar-black .ajax_block_product{
+    background: url(images/sep_product_2.gif) repeat-x scroll left top transparent;
+    margin: 5px 10px;
+    padding: 15px 0 0;
+    position: relative;
+    display: block;
+    overflow: hidden;    
+}
+.lof-scrollbar-black .first_item{
+    background: none repeat scroll 0 0 transparent;
+    padding: 5px 10px;
+}
+.lof-scrollbar-black .lof-pro-left{
+    margin-bottom: 5px;
+}
+.lof-scrollbar-black .lof-description h2,.lof-scrollbar-black .lof-cms-item h2{
+     background: none repeat scroll 0 0 transparent;   
+    height: auto;
+    text-transform: none;
+}
+.lof-scrollbar-black .lof-desc {    
+    background:url(images/bg-desc.png) right 0;
+    color: white;
+    font-size: 11px;
+    min-height: 39px;
+    text-align: left;
+    width: 96%;
+    padding: 2%;
+    z-index: 2;
+    left: 0;     
+}
+
+.lof-scrollbar-black .efhover  .lof-desc{
+    position: absolute;
+    bottom:0;
+    display: none; 
+}
+.lof-scrollbar-black .efupdown  .lof-desc{
+    position: absolute;
+    bottom:-200px; 
+} 
+
+.lof-scrollbar-black .efupdown .lof-item-img{overflow:hidden;}
+.lof-scrollbar-black .lof-desc DIV{
+    padding: 10px;
+}
+.lof-scrollbar-black .lof-cmsc-title a{
+    color: #E85500;background:url(images/readmore.png) no-repeat right 0;padding:0 20px 1px 0;font-weight: bold;height: 16px;display: inline-block;line-height: 12px;
+}
+.lof-scrollbar-black .lof-item{   
+    position: relative;
+    float: left;
+    height: 322px;
+    margin: 0 7px;
+    *margin: 0;
+    *padding: 70px 7px 0;
+    text-align: left;
+    width: 322px;
+    background-color: #181818;
+}
+.lof-scrollbar-black .lof-item-first{
+    margin: 0 7px 0 13px;*margin: 0;*padding-left: 12px;
+}
+.lof-scrollbar-black .lof-cmsc-title{
+    background:none;
+	margin-left:10px;
+	
+}
+.lof-scrollbar-black .lof-cmsc-title a{    
+	line-height: 14px;
+	text-decoration: none;
+	margin-top: 2px;
+}
+
+.lof-scrollbar-black .lof-cmsc-title a:hover{
+	text-decoration:underline;
+}
+.lof-header-top{
+    background:url(images/bg-top.png) repeat-x right 0;
+    width: 100%;
+    height: 10px;
+}
+.mcs5_container{margin:10px 0 0 0; width:560px; height:130px; padding:0;}
+.mcs5_container .customScrollBox{position:relative; overflow:hidden;}
+.mcs5_container .customScrollBox .horWrapper{position:relative; left:0;}
+.lof-scrollbar-black .container{
+    padding-top: 70px;    
+    position:relative; left:0; display:inline-block; *display:inline;}
+.lof-scrollbar-black .mcs5_container .customScrollBox .content{clear:both;*display: inline-block;}
+.mcs5_container .customScrollBox .content p{padding:5px; margin:0 5px;}
+.mcs5_container .customScrollBox .content p img{margin-right:5px;}
+.mcs5_container .dragger_container{
+    position:relative;    
+    width:100%;       
+    height: 10px;        
+}
+.lof-scrollbar-black .dragger{
+    background: none repeat scroll 0 0 #A1D800;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    width: 60px;    
+    overflow: hidden;
+    position: absolute;
+    height: 10px;
+    margin-left: 10px; 
+}
+.lof-scrollbar-black .dragger_pressed{
+    background: none repeat scroll 0 0 #A1D800;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    width: 60px;    
+    overflow: hidden;
+    position: absolute;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.lof-scrollbar-black-pa {
+	position:relative;
+}
+.lof-scrollbar-black .lof-scroll-bottom{
+    background:url(images/bg-top.png) repeat-x 0 -10px;
+    margin-top: -3px;
+    height: 10px;
+    width: 100%;
+    *margin-top: 0;
+}
+.lof-scrollbar-black .container{
+    background-color: #181818;
+    height: 100%;
+    overflow: hidden;   
+}
+.lof-scrollbar-black .content{
+    background-color: #181818;      
+}

@@ -1,0 +1,126 @@
+.lof-slidingcaption-wrap .icon-module-sliding{
+    height: 80px;
+    position: absolute;
+    left: -9px;
+	top:-9px;
+    width: 90px;
+    z-index: 2;
+}
+.lof-slidingcaption-wrap .lof-sale{
+	height: 40px;
+    position: absolute;
+    left: 0;
+	bottom:0;
+    width: 40px;
+    z-index: 9999;
+}
+.lof-slidingcaption-wrap .lof-feature{
+    height: 55px;
+    position: absolute;    
+	left: 0px;
+	top:0px;
+    width: 56px;
+    z-index: 9999;	
+}
+.lof-slidingcaption-wrap .lof-new{
+	height: 48px;
+    position: absolute;
+    right: 0px;
+	top:0px;
+    width: 48px;
+    z-index: 9999;
+}
+.lof-slidingcaption-wrap .lof-online_only{
+	height: 48px;
+    position: absolute;
+    right: 0;
+	bottom:0;
+    width: 48px;
+    z-index: 9999;
+}
+/*Featured Icon Module*/
+.lof-sliding-en .icon-module-sliding-featured{
+    background: url('images/en/featured_module.png') no-repeat scroll left top transparent;
+}
+.lof-sliding-fr .icon-module-sliding-featured{
+    background: url('images/fr/featured_module.png') no-repeat scroll left top transparent;
+}
+.lof-sliding-es .icon-module-sliding-featured{
+    background: url('images/es/featured_module.png') no-repeat scroll left top transparent;
+}
+
+/*New Product Icon Module*/
+.lof-sliding-en .icon-module-sliding-newproducts{
+    background: url('images/en/newproducts_module.png') no-repeat scroll left top transparent;
+}
+.lof-sliding-fr .icon-module-sliding-newproducts{
+    background: url('images/fr/newproducts_module.png') no-repeat scroll left top transparent;
+}
+.lof-sliding-es .icon-module-sliding-newproducts{
+    background: url('images/es/newproducts_module.png') no-repeat scroll left top transparent;
+}
+/*Special Product Icon Module*/
+.lof-sliding-en .icon-module-sliding-special{
+    background: url('images/en/special_module.png') no-repeat scroll left top transparent;
+}
+.lof-sliding-fr .icon-module-sliding-special{
+    background: url('images/fr/special_module.png') no-repeat scroll left top transparent;
+}
+.lof-sliding-es .icon-module-sliding-special{
+    background: url('images/es/special_module.png') no-repeat scroll left top transparent;
+}
+/*Best Sellers Product Icon Module*/
+.lof-sliding-en .icon-module-sliding-bestsellers{
+    background: url('images/en/bestsellers_module.png') no-repeat scroll left top transparent;
+}
+.lof-sliding-fr .icon-module-sliding-bestsellers{
+    background: url('images/fr/bestsellers_module.png') no-repeat scroll left top transparent;
+}
+.lof-sliding-es .icon-module-sliding-bestsellers{
+    background: url('images/es/bestsellers_module.png') no-repeat scroll left top transparent;
+}
+
+
+
+.lof-sliding-en .lof-sale{
+	background: url('images/en/saleoff.png') no-repeat scroll right bottom transparent;
+    
+}
+.lof-sliding-en .lof-feature{
+	background: url('images/en/feature.png') no-repeat scroll right bottom transparent;
+   
+}
+.lof-sliding-en .lof-new{
+	background: url('images/en/new.png') no-repeat scroll right bottom transparent;    	
+}
+.lof-sliding-en .lof-online_only{
+	background: url('images/en/online-only.png') no-repeat scroll right bottom transparent;   	
+}
+.lof-sliding-fr .lof-sale{
+	background: url('images/fr/saleoff.png') no-repeat scroll right bottom transparfrt;
+    
+}
+.lof-sliding-fr .lof-feature{
+	background: url('images/fr/feature.png') no-repeat scroll right bottom transparfrt;
+   
+}
+.lof-sliding-fr .lof-new{
+	background: url('images/fr/new.png') no-repeat scroll right bottom transparfrt;    	
+}
+.lof-sliding-fr .lof-online_only{
+	background: url('images/fr/online-only.png') no-repeat scroll right bottom transparfrt;   	
+}
+.lof-sliding-es .lof-sale{
+	background: url('images/es/saleoff.png') no-repeat scroll right bottom transparest;
+    
+}
+.lof-sliding-es .lof-feature{
+	background: url('images/es/feature.png') no-repeat scroll right bottom transparest;
+   
+}
+.lof-sliding-es .lof-new{
+	background: url('images/es/new.png') no-repeat scroll right bottom transparest;    	
+}
+.lof-sliding-es .lof-online_only{
+	background: url('images/es/online-only.png') no-repeat scroll right bottom transparest;   	
+}

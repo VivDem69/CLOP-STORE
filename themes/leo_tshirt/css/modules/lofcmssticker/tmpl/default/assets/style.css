@@ -1,0 +1,83 @@
+.lof-cmssticker-default{
+	padding-left: 12px;
+	float:left;
+	margin-top: 4px;
+}
+#footer .lof-cmssticker-default li a:hover {
+	color: #fff;
+}
+.lofcmssticker_common {
+	background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    float: left;
+    padding-left: 10px;
+}
+.lof-cmssticker-default .lof-mod-title{
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 23px;  
+	float:left;
+	text-transform: uppercase;
+	
+}
+.lof-cmssticker-default .lof-mod-title h1 { font-size: 14px; height: 21px; color: #fff; padding-left: 12px;}
+.lof-cmssticker-default .lof-mod-title span{
+	font-size: 19px;
+	padding-right: 10px;
+	
+}
+.lof-cmssticker-default .control_buttons{
+	float:right;
+}
+.lof-cmssticker-default .control_buttons span{ cursor:pointer; }
+
+.lof-cmssticker-default .ticker-controls {
+    float: left;
+    list-style-type: none;
+    padding: 8px 0 0;
+}
+.lof-cmssticker-default .ticker-controls li {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 5px;
+    padding: 0;
+    width: 16px;
+}
+.lof-cmssticker-default .ticker-controls li a{
+	text-indent: -9999px;
+	display:block;
+}
+.lof-cmssticker-default .ticker-controls li.lofsticker_play {
+    background-image: url(images/controls.png);
+    background-position: 32px 16px;
+}
+.lof-cmssticker-default .ticker-controls li.lofsticker_play:hover {
+	background-position: 32px 32px;
+}
+.lof-cmssticker-default .ticker-controls li.lofsticker_play.play {
+	background-position: 48px 16px;
+}
+
+.lof-cmssticker-default .ticker-controls li.lofsticker_play.play:hover {
+	background-position: 48px 32px;
+}
+.lof-cmssticker-default .ticker-controls li.lofsticker_prev {
+    background-image: url(images/controls.png);
+    background-position: 0 16px;
+}
+.lof-cmssticker-default .ticker-controls li.lofsticker_prev:hover {
+	background-position: 0 32px;
+}
+.lof-cmssticker-default .ticker-controls li.lofsticker_next {
+    background-image: url(images/controls.png);
+    background-position: 16px 16px;
+}
+.lof-cmssticker-default .ticker-controls li.lofsticker_next:hover {
+	background-position: 16px 32px;
+}
+ul li.active {
+	background: none;
+}

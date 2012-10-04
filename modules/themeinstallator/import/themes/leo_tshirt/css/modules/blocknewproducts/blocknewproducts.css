@@ -1,0 +1,38 @@
+/* Block new products */
+#new-products_block_right ul { padding: 5px 0 }
+#new-products_block_right li { 
+	margin-top: 0;
+	padding:0
+}
+#new-products_block_right .product_images li.first { margin-right: 11px }
+#new-products_block_right dt a { 
+	font-size: 12px;
+    font-weight: normal; }
+#new-products_block_right dl.products{border-top: none;display: block;padding:0;overflow: hidden;}
+#new-products_block_right dl.products dt{
+	background: url("images/shadow-li.png") repeat-x scroll left bottom transparent;
+    border: medium none;
+    color: #4B5158;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 0;
+    padding: 8px 8px 8px 15px;
+	overflow: hidden;
+    
+}
+#new-products_block_right dl.products dt.last_item{
+	background: none;
+}
+
+#new-products_block_right dt a:first-child{
+	float: left;
+}
+
+#new-products_block_right dt a img{
+	 border: 1px solid #C8D2E0;
+	 margin-right: 5px;
+}
+
+#new-products_block_right .button_large{
+
+}

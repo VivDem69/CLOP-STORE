@@ -1,0 +1,262 @@
+
+/* product.tpl */
+#primary_block #pb-right-column {
+	 float: left;
+    width: 35%;
+}
+#primary_block #image-block {
+	
+}
+#primary_block #image-block img#bigpic { 
+	border: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+#primary_block ul#usefull_link_block {
+	list-style-type: none;
+	margin-top: 1em;
+	position: relative;
+}
+
+#primary_block ul#usefull_link_block:before {
+
+    bottom: 0;
+    content: "";
+    height: 16px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#primary_block ul#usefull_link_block li { margin: 0.5em 1em 0.5em 0; display: inline-block }
+#primary_block ul#usefull_link_block li a,
+#primary_block ul#usefull_link_block span.span_link,
+#primary_block ul#usefull_link_block span.span_link:hover {
+	text-decoration: none;
+	font-size: 0.9em;
+	background: white url('../img/bullet_alt.jpg') no-repeat top left;
+	padding-left: 22px;
+	height: 15px
+}
+
+#primary_block ul#usefull_link_block li a{
+	background-position: 0 -21px !important;
+}
+
+#primary_block ul#usefull_link_block li a,
+#primary_block ul#usefull_link_block span.span_link,
+#primary_block ul#usefull_link_block span.span_link:hover {
+	 background: url("../img/default/product-icon.png") no-repeat scroll left -43px transparent;
+    padding-bottom: 5px;
+}
+
+#primary_block #pb-left-column {
+	float: left;
+	margin-left: 1.1em;
+	width: 62%;
+	font:14px 'Arvo';
+	position: relative;
+}
+#primary_block #short_description_block {
+	padding: 0.7em;
+}
+#primary_block #color_picker p {
+	margin-bottom: 0.4em;
+	padding: 0
+}
+#primary_block #color_picker {
+	padding: 0.6em 0.7em 0.4em 0.7em;
+	margin-bottom: 1.5em
+}
+#primary_block #color_to_pick_list li {
+	display: inline;
+	float: left;
+	margin: 0 0.4em 0.4em 0
+}
+#primary_block a.color_pick {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #666;
+	cursor: pointer
+}
+#primary_block a.color_pick:hover { border: 1px solid #000 }
+#primary_block a#color_all { cursor: pointer }
+#primary_block #image-block img#bigpic.jqzoom {
+	cursor: crosshair;
+	position: relative
+}
+#primary_block p.buttons_bottom_block { 
+	padding-left:0;
+}
+#primary_block #short_description_content { margin-bottom: 0.5em }
+#primary_block #buy_block {
+	font-size: 1.1em;
+}
+#primary_block #buy_block p {
+	padding: 0;
+	margin-top: 1px;
+	clear: both;
+	
+}
+#primary_block #buy_block p#quantity_wanted_p{clear:left;padding-right:10px;height:25px;line-height:25px;float:left;}
+#primary_block #buy_block img.on_sale_img { float: left }
+#primary_block #buy_block span.on_sale {
+	color: #da0f00;
+	text-transform: uppercase;
+	font-weight: bold;
+	float: right
+}
+#primary_block #buy_block span.discount {
+	color: #da0f00;
+	text-transform: uppercase;
+	font-weight: bold;
+	float: right
+}
+#primary_block #buy_block span.our_price_display { float: right }
+#primary_block #buy_block span#availability_label {
+	float: left;
+	margin-right: 1em
+}
+#primary_block #buy_block label { text-align: right }
+#primary_block #buy_block label,#primary_block #buy_block select {
+	display: block;
+	float: left
+}
+
+#primary_block div#attributes p, #minimal_quantity_wanted_p {
+	clear: left;
+	text-align: center
+}
+
+/* prices */
+#primary_block #buy_block p.price {
+	font-size: 1.05em;
+	text-align: right
+}
+#primary_block #buy_block span#pretaxe_price {
+	font-size: 0.75em;
+	text-align: right
+}
+#primary_block #buy_block p#old_price {
+	font-size: 0.8em;
+	text-align: right;
+	text-decoration: line-through
+}
+#primary_block #buy_block p#reduction_percent {
+	color: #da0f00;
+	font-size: 0.75em;
+	text-align: right
+}
+#primary_block #buy_block p.price-ecotax {
+	font-size: 0.75em;
+	text-align: right
+}
+#admin-action {
+    color: #374853; 
+    background-color: #DFFAD3; 
+    margin-bottom:10px; 
+    padding: 4px; 
+    border: 1px solid #72CB67
+}
+#admin-action input.exclusive
+{
+	float: right
+}
+
+.product_accessories_price
+{
+	margin-top: 5px
+}
+#our_price_display {
+	font:30px 'Arvo';
+	color: #1576a8;
+}
+.our_price_display {
+width: 100%;
+}
+.on_sale {
+	width: 100%;
+}
+.text-price {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#primary_block #buy_block #add_to_cart {
+    float: left;
+	clear:right;
+	background: url(../img/default/cart-detail.png) no-repeat scroll left top transparent;
+	display:inline-block;
+}
+#quantity_wanted.text {
+	height: 20px;
+    width: 20px;
+}
+
+#product .quantity_wanted_p{
+	float: left;
+}
+
+#primary_block #short_description_block p a.button:hover{
+    text-align: center;
+	color: #fff;
+}
+/* Blue ------------------*/
+.price_p {
+    float: left;
+    width: 100%;
+	background: url("../img/default/bg-li.png") repeat-x scroll left bottom transparent;
+}
+span.our_price_display {
+    float: left;
+    margin-bottom: 10px;
+}
+p#old_price {
+    float: left;
+    font-size: 1.2em;
+    margin-left: 0;
+    text-align: left;
+    text-decoration: line-through;
+    display:none;
+}
+p#reduction_percent {
+    float: right;
+    font-size: 1.2em;
+    margin-right: 10px;
+    margin-top: -34px;
+    text-align: right;
+}
+#primary_block #short_description_block {
+     margin-bottom: 0;
+    overflow: hidden;
+    padding: 0;
+	color:#7a7a7a;
+}
+#primary_block #short_description_content {
+
+    margin-bottom: 0.5em;
+}
+#center_column div.rte p, .mceContentBody p {
+
+    margin: 0.5em 0;
+    padding-left: 0;
+}
+#primary_block #color_picker {
+    margin-bottom: 1.5em;
+    padding: 0.6em 0.7em 0.4em;
+}
+#primary_block form#buy_block {
+	margin-bottom:2px;
+	background: url("../img/default/bg-li.png") repeat-x scroll left bottom transparent;
+    font:14px 'Arvo';
+    padding: 0.7em 0.7em 14px;
+	position: relative;
+	color:#7a7a7a;
+ 
+}
+
+#product .socialshare{
+    display: inline-block;
+    height: 45px;
+    padding-top: 10px;
+}

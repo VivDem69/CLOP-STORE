@@ -1,0 +1,554 @@
+.lof-module-featured.default  {
+	margin: 20px auto 0;
+	background: #1f2531;
+}
+.lof-module-featured.default .lof-module-featured {
+    
+    background:#FFFFFF;margin-bottom:10px;
+}
+.bg-tabs-left-bd {
+	
+}
+.lof-module-featured.default .lof-tabnews-panel{
+	position:relative;
+	height:50px;
+}
+.lof-module-featured.default ul.tabs-panel {
+    width: 100%;
+	padding:0!important;
+	margin:0;
+    height:auto;    
+}
+.lof-module-featured.default .tabs-panel li{
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    height: 30px;
+	position:relative;
+    list-style: none;
+    line-height: 120%;
+    width:200px;
+}
+
+.lof-module-featured.default li.lof-tab a {
+    color: #FFFFFF;
+    float: left;
+    height: 24px;
+    padding: 7px 0 9px 5px;
+    text-decoration: none;
+    outline: none;
+}
+.lof-module-featured.default .bg-tabs-middle{font-size: 18px; }
+.lof-module-featured.default li.lof-tab a.active{
+    color: #F84237;
+    height: 15px;
+    padding: 7px 0 9px;
+    outline: none;
+}
+.lof-module-featured.default li.lof-tab .remove {
+    color: #900;
+}
+
+.lof-module-featured.default p.content {
+    margin: 0 0 1em 0;
+    padding: .4em;
+    border: 1px #333 solid;
+}
+.lof-module-featured.default .lof-content-tab{
+    position:relative;
+    height:auto;
+    padding: 9px 9px 7px; 
+}
+.lof-module-featured.default .lof-content-tab .bd-lof-content {
+	width:190px;
+	margin: 0 10px;
+}
+.lof-module-featured.default .lof-parent-cat-title{
+    position: relative;
+    padding-bottom: 10px;
+}
+.lof-module-featured.default .lof-content-first-main{
+    position: relative;
+    padding-bottom:10px;
+    border-bottom: 1px #E9E9E9 solid;
+}
+.lof-module-featured.default .lof-content-main{
+    position: relative;
+    border:0px red solid;
+    height:auto;
+    margin-right:10px;
+   
+}
+.lof-module-featured.default .lof-cols-item{
+    position: relative;
+    float:left;
+}
+.lof-module-featured.default .lof-content-main-item{
+    position: relative;
+    float:left;
+    padding-bottom:10px;
+	margin-left: 5px;
+	width: 24%!important;
+}
+.lof-module-featured.default .lof-tabnews-content{
+    position: relative;
+}
+.lof-module-featured.default .lof-content-normal{
+    position: relative;
+    border: 1px maroon solid;
+}
+.lof-module-featured.default .lof-item-content{
+    position: relative;
+    font-size:13px;
+	text-align: left;
+	margin: 10px 0;
+	height: 20px;
+	overflow: hidden;
+}
+.lof-module-featured.default .lof-main-image{
+    border: 1px solid #D3DFED;
+    padding: 2px;
+    position: relative;
+    margin-right:10px;
+}
+.lof-module-featured.default .lof-item-content h4 a{
+    font-size: 14px;
+    font-weight: normal; 
+	color: #fff;	
+}
+.lof-module-featured.default .lof-item-content h4 a:hover{
+    
+}
+.lof-module-featured.default .lof-main-description{
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+	color: #79808C;
+}
+.lof-module-featured.default .lof-main-description p{
+    padding-left:0px !important;
+}
+.lof-module-featured.default .lof-main-description span a{
+    text-align: right;
+    position: relative;
+    float:right;
+}
+.lof-module-featured.default .lof-main-puplic{
+    position: relative;
+    color:#3B77BF !important;
+    text-align: right;
+    font-size:11px;
+    padding-right:10px;
+}
+.lof-module-featured.default .lof-main-puplic a.lof-detail{
+    background: #333333;
+    color:#FFFFFF;
+    padding:5px 5px;
+    float:left;
+    position: relative;
+}
+.lof-module-featured.default .lof-main-puplic .lof-add-cart{
+    background: url('images/button_marker.gif') no-repeat scroll left center #BA1010;
+    color:#FFFFFF;
+    padding: 5px 9px 5px 12px;
+    width: auto;
+    float:left;
+    position: relative;
+}
+.lof-module-featured.default .lof-main-puplic span.lof-add-cart{
+    color:#FFFFFF !important;
+    font-weight:bold;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+}
+.lof-module-featured.default .lof-main-puplic a{
+    color:#FFFFFF !important;
+    font-weight:bold;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+    font-size:10px !important;
+}
+.lof-module-featured.default .lof-main-puplic a:hover{
+    text-decoration: underline !important;
+}
+.lof-module-featured.default .lof-normal-content{
+    position: relative;
+    float:right;
+}
+.lof-module-featured.default .lof-link-all{
+    position: absolute;
+    right:10px;
+    bottom:5px;
+}
+.lof-module-featured.default .lof-alignright{
+    display: inline;
+    float: right;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.lof-module-featured.default .lof-h-title-normal{
+    right:10px;
+    padding-bottom: 10px;
+}
+.lof-module-featured.default .lof-h-title-normal h4 a{
+    color: #333333 !important;
+    font-weight:normal;
+    text-decoration: none !important;
+    
+}
+.lof-module-featured.default .lof-h-title-normal h4 a:hover{
+    color:#3B77BF !important;
+    background: none !important;
+}
+.lof-module-featured.default .lofnum{
+    border-bottom: 1px dotted #666666;
+}
+.lof-module-featured.default .lof-viewall-category{
+    position: relative;
+    padding-top:10px;
+}
+.lof-module-featured.default .lof-viewall-category a{
+    text-decoration: none !important;
+    color: olive;
+}
+.lof-module-featured.default .lof-viewall-category a:hover{
+    text-decoration: underline;
+    background: none !important;
+    color:#3B77BF;
+}
+.lof-module-featured.default .lof-parent-session{
+    width:100%;
+    height:40px;
+}
+.lof-module-featured.default .lof-parent-cat-title span{
+    left: 10px;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+}
+.lof-module-featured.default .lof-parent-session a{
+    text-decoration: none;
+    color:blue !important;
+    font-weight:bold;
+    font-size:18px;
+}
+.lof-module-featured.default .lof-parent-session a:hover{
+    background: none !important;
+    text-decoration: underline;
+}
+.lof-module-featured.default .lof-item-list-main{
+    position: relative;
+    padding-top: 5px;
+    border-bottom: 1px solid #E9E9E9;
+    display: block;
+    float: none;
+    padding: 8px 0 8px 2px;
+}
+.lof-module-featured.default .lof-item-list-main h4{
+    font-size:15px;
+    background: url('images/lof_bullet_white.png') no-repeat left center;
+}
+.lof-module-featured.default .lof-item-list-main h4:hover{
+    font-size:12px;
+    background: url('images/lof_bullet_red.png') no-repeat left center;
+}
+.lof-module-featured.default .lof-item-list-main h4 a{
+    font-size:15px;
+    color:#333333 !important;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.lof-module-featured.default .theme3.lof-item-list-main a{
+    text-decoration: none;
+    color:#333333;
+    font-weight:bold;
+    position: relative;
+    left:12px;
+}
+.lof-module-featured.default .lof-item-list-main a:hover{
+    text-decoration: none;
+    background: none !important;
+    color:#3B77BF !important;
+}
+.lof-module-featured.default .lof-list-main-description p a img{
+    width:80px !important;
+}
+.lof-module-featured.default .lof-hh-item-cols{
+    position: relative;
+    padding-right: 15px;
+}
+.lof-module-featured.default .lof-content-main-item.ddclass-slider{
+    padding-right:20px;
+}
+
+.lof-module-featured.default .lof-main-item { display:block; width:1000px; position:relative;  float: left;}
+.lof-module-featured.default .lof-prev{
+    background: url(images/lof-nav.png) no-repeat scroll left top transparent;
+    width:16px;
+    height:16px;
+    position: relative;
+    float:left;
+    cursor: pointer;
+    outline:none;
+    margin: 3px 5px 0 0;
+    text-indent: -999em;
+    
+}
+.lof-module-featured.default .lof-next{
+    background: url(images/lof-nav.png) no-repeat scroll right top transparent;
+    width:16px;
+    height:16px;
+    position: relative;
+    float:right;
+    cursor: pointer;
+    outline:none;
+    display: block;
+    margin-top: 3px;
+    text-indent: -999em;
+}
+.lof-module-featured.default .lof-prev:hover{
+    background: url(images/lof-nav.png) no-repeat scroll left bottom transparent;
+    width:16px;
+    height:16px;
+    
+}
+.lof-module-featured.default .lof-next:hover{
+    background: url(images/lof-nav.png) no-repeat scroll right bottom transparent;
+    width:16px;
+    height:16px;
+}
+.lof-module-featured.default .buttons span{
+    height:50px;
+    width: 100px;
+}
+.lof-module-featured.default .lof-buttons{
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: -27px;
+    width: 40px;
+}
+.lof-module-featured.default .lof-public-item-icon{
+    height: 60px;
+    position: absolute;
+    right: 18px;
+    width: 60px;
+    z-index: 9999;
+}
+.lof-module-featured.default .lofshowcase-icon.featured-icon{
+    background: url(images/featured-item.png) no-repeat scroll right bottom transparent;
+    height: 60px;
+    position: absolute;
+    right: 18px;
+    width: 60px;
+    z-index: 9999;
+}
+.lof-module-featured.default .lofshowcase-icon.new-icon{
+    background: url(images/new-item.png) no-repeat scroll right bottom transparent;
+    height: 60px;
+    position: absolute;
+    right: 18px;
+    width: 60px;
+    z-index: 9999;
+}
+.lof-module-featured.default .lofshowcase-icon.hot-icon{
+    background: url(hot-item.png) no-repeat scroll right bottom transparent;
+    height: 60px;
+    position: absolute;
+    right: 18px;
+    width: 60px;
+    z-index: 9999;
+}
+.lof-module-featured.default .lof-container{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding-left: 4px;
+ 
+}
+.lof-module-featured.default .lof-price-contain{
+    font-size: 11px;
+    overflow: hidden;
+    position: relative;
+	float:left;
+	padding-right:10px;
+}
+.lof-module-featured.default .lof-reating{
+    overflow: hidden;
+    padding-top: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.lof-module-featured.default .lof-price-contain .lof-price b{
+    
+}
+.lof-module-featured.default .lof-price-contain .lof-price b s{
+    color: #7E7E7E;
+}
+.lof-module-featured.default .lof-reatingdetail, .count_commentar{
+    float:left !important;
+}
+.lof-module-featured.default .lof-reatingdetail{
+    margin-right:10px;
+}
+.lof-module-featured.default .product_label{
+	position:relative;
+    border:2px solid #2b3f59;
+    padding:1px;
+    margin-top:4px;
+	margin:0 auto;
+}
+.lof-module-featured.default .lof-add-cart{
+    height: 28px;
+	text-transform:uppercase;
+	font-size:10px;
+	text-decoration:none;
+	float:right;
+}
+.lof-module-featured.default .lof-tools-opacity{position:relative;padding-top:10px;}
+/*--------- tooltip */
+.tooltip {
+	display: none;
+	background:url(images/tooltip_bg_up.png) no-repeat;
+	width:431px;
+	height:225px;
+	padding:10px 12px 23px 10px;
+	z-index:9999}
+
+.tooltip.bottom {
+	background:url(images/tooltip_bg_bot.png) no-repeat;
+	padding:23px 12px 10px 10px;}
+ 
+.lof-tooltip-image{
+    
+}
+.tooltip .lof-tools-opacity{
+    position: relative;
+    height:35px;
+    color:#FFFFFF;
+    font-size: 14px;
+    padding-top:10px;
+}
+.tooltip .lof-tools-opacity h4 a{
+    
+    color:#FFFFFF;
+    font-weight:bold;
+    text-align: left;
+    text-decoration: none;
+    float:left;
+    padding-right:10px;    
+    font-size:12px;
+    text-transform: uppercase;
+}
+.lof-module-featured.default .ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.lof-module-featured.default .ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.lof-module-featured.default .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.lof-module-featured.default .ui-tabs .ui-tabs-hide { display: none !important; }
+.lof-module-featured.default .ui-tabs-selected.ui-state-active a{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DDDDDD;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #333333;
+    height: 24px;
+    padding: 7px 10px 9px 9px;
+    outline: none;
+}
+
+
+/*add style for lof box*/
+.lof-module-featured.default .lof-box-tools .product_label .image {cursor:pointer;position:absolute;top:0;left:0;z-index:9999;}
+.lof-module-featured.default .lof-box-tools .product_label.open .image {height:auto;width:300px;top:0px;left:-20px;z-index:99999;}
+.lof-module-featured.default .lof-box-tools .product_label .hover {position:absolute;bottom:0;right:0;display:block;width:40px;height:40px;background:url(images/offerta_open_hover.gif) no-repeat left top;cursor:pointer;z-index:999999;}
+.lof-module-featured.default .lof-box-tools .product_label .lof-content-tools-text {display:none;position:absolute;background:url(images/offerta_open_bg.png);height:100%;width:100%;z-index:999999;overflow:hidden;color:#fff;}
+.lof-module-featured.default .lof-box-tools .product_label .lof-content-tools-text .close {position:absolute;top:0;right:0;display:block;width:40px;height:40px;background:url(images/offerta_open_close.gif) no-repeat left top;cursor:pointer;}
+.lof-module-featured.default .lof-box-tools .product_label.open .lof-content-tools-text {display:block;top:0px;left:0px;z-index: 4;}
+.lof-module-featured.default .lof-box-tools .product_label .lof-content-tools-text h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-top:12px!important;
+}
+.lof-module-featured.default .lof-box-tools .lof-content-tools-text  > h4,
+.lof-module-featured.default .lof-box-tools .lof-content-tools-text > div{
+    margin:0 12px;
+ }
+.lof-module-featured.default .lof-box-tools .product_label .lof-content-tools-text .box-price{
+    position: relative;
+    background: none repeat scroll 0 0 #AE2E7F;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-right: 6px;
+    padding: 2px 10px;
+    margin-top:15px;
+}
+.lof-module-featured.default .lof-box-tools .product_label .lof-content-tools-text .box-detail{
+    position: relative;
+    padding-top:15px;
+    
+}
+.lof-module-featured.default .lof-box-tools .product_label .lof-content-tools-text .box-detail a{
+    background: url('images/lof_plus.gif') no-repeat scroll right center #721F53;
+
+    float:left;
+}
+.lof-module-featured.default .lof-box-tools   .box-detail a,  .lof-box-tools .add_cart a {
+    position: relative;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-right: 10px;
+    padding: 4px 24px 4px 7px !important;
+    text-decoration: none;
+    text-transform: uppercase; 
+ }
+.lof-module-featured.default .lof-box-tools .product_label .lof-content-tools-text .add_cart a{
+    background: url('images/button_next.gif') no-repeat scroll right center #90C13E;
+    float:right;
+}
+.lof-module-featured.default .lof-price-discount{
+    text-decoration: line-through;
+}
+/* Sample 2*/
+#lof-cols-item-cat{
+	position:relative;
+}
+#lof-cols-item-cat span{
+	display:block;
+	float:left;
+}.clr{ clear:both; }
+
+div.lofcontrol{
+	position: absolute;
+    right: 5px;
+    top: -40px;
+}
+div.lofcontrol > ol > li{
+	background: url("images/arrow-button.png") no-repeat scroll 0 2px transparent;
+    float: left;
+    height: 17px;
+    list-style: none outside none;
+    width: 17px;
+	text-indent:-9999em;
+	cursor: pointer;
+	margin-top: 2px;
+}
+div.lofcontrol > ol > li.current{
+	background-position: 1px -15px;
+	height:20px;
+	width:20px;
+	margin-top: 0;
+}
+
+div.lof-box-tools-featured a.product_image  img{
+}
+.lof-box-tools-featured {
+
+}

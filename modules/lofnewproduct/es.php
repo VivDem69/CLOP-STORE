@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{loftabs}prestashop>loftabs_a9266bb67b19224a543430a4a82c0909'] = 'Lof TabProducts módulo';
+$_MODULE['<{loftabs}prestashop>loftabs_d080fc3fc261cb878fd3bff152bb025e'] = '. Carpeta de caché ha sido eliminado';
+$_MODULE['<{loftabs}prestashop>loftabs_8d3b6eb4b52d941b01d616a6d3ee68d1'] = '. Carpeta de caché can\'tdeleted';
+$_MODULE['<{loftabs}prestashop>loftabs_c888438d14855d7d96a2724ee9c306bd'] = 'Configuración actualizada';
+$_MODULE['<{loftabs}prestashop>loftabs_22f93742ec42ed6aae9f55a400b05a40'] = 'La altura del módulo que ha introducido no se le permitió, lo siento';
+$_MODULE['<{loftabs}prestashop>loftabs_8c7f6627e7f14be30c1cac83aabc0556'] = 'La anchura del módulo que ha introducido no se le permitió, lo siento';
+$_MODULE['<{loftabs}prestashop>loftabs_1981abcc3da592dbac26348d914696a9'] = 'Los caracteres máx descripción que has introducido no se le permitió, lo siento';
+$_MODULE['<{loftabs}prestashop>loftabs_3104a04a0342f191b3a84b9331736ec0'] = 'La altura de la imagen principal que ha introducido no se le permitió, lo siento';
+$_MODULE['<{loftabs}prestashop>loftabs_80ce0c6c90824504aa9704279be3ba3c'] = 'Ancho de la imagen principal que ha introducido no se le permitió, lo siento';
+$_MODULE['<{loftabs}prestashop>default_15422d54ec0d47000dc86a9820a5237e'] = 'Destacados';
+$_MODULE['<{loftabs}prestashop>default_22c6735b370cecf293e32dca6c678185'] = 'Best Seller';
+$_MODULE['<{loftabs}prestashop>default_d1aa22a3126f04664e0fe3f598994014'] = 'Especiales';
+$_MODULE['<{loftabs}prestashop>default_1529636c2dd134b028a08f7b131115b5'] = 'Nuevos Productos';
+$_MODULE['<{loftabs}prestashop>default_a254c25adc7d10d7e9c4889484f875a5'] = 'Detalle';
+$_MODULE['<{loftabs}prestashop>default_4351cfebe4b61d8aa5efa1d020710005'] = 'Ver';
+$_MODULE['<{loftabs}prestashop>default_2d0f6b8300be19cf35e89e66f0677f95'] = 'Ver';
+$_MODULE['<{loftabs}prestashop>bestseller_a254c25adc7d10d7e9c4889484f875a5'] = 'Detalle';
+$_MODULE['<{loftabs}prestashop>bestseller_4351cfebe4b61d8aa5efa1d020710005'] = 'Detalle';
+$_MODULE['<{loftabs}prestashop>bestseller_2d0f6b8300be19cf35e89e66f0677f95'] = 'Añadir a la cesta';
+$_MODULE['<{loftabs}prestashop>featured_a254c25adc7d10d7e9c4889484f875a5'] = 'Detalle';
+$_MODULE['<{loftabs}prestashop>featured_4351cfebe4b61d8aa5efa1d020710005'] = 'Ver';
+$_MODULE['<{loftabs}prestashop>featured_2d0f6b8300be19cf35e89e66f0677f95'] = 'Añadir a la cesta';
+$_MODULE['<{loftabs}prestashop>newproduct_a254c25adc7d10d7e9c4889484f875a5'] = 'Detalle';
+$_MODULE['<{loftabs}prestashop>newproduct_4351cfebe4b61d8aa5efa1d020710005'] = 'Ver';
+$_MODULE['<{loftabs}prestashop>newproduct_2d0f6b8300be19cf35e89e66f0677f95'] = 'Añadir a la cesta';
+$_MODULE['<{loftabs}prestashop>special_a254c25adc7d10d7e9c4889484f875a5'] = 'Detalle';
+$_MODULE['<{loftabs}prestashop>special_4351cfebe4b61d8aa5efa1d020710005'] = 'Ver';
+$_MODULE['<{loftabs}prestashop>special_2d0f6b8300be19cf35e89e66f0677f95'] = 'Añadir a la cesta';

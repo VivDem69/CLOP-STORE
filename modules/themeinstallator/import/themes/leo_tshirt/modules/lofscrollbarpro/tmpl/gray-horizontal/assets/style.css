@@ -1,0 +1,616 @@
+.mcs_container{
+	position:relative; 
+	/*margin: 0 0 0 10px;*/
+	width:260px; 
+	height:600px; 
+	padding:0 10px; 
+	
+}
+.mcs_container .customScrollBox{
+	position:relative; height:100%; 
+	overflow:hidden;
+}
+.mcs_container .customScrollBox .container{
+	position:relative; 
+	width:240px; 
+	top:0; 
+	float:left;
+}
+
+.mcs_container .customScrollBox .content p{
+	padding:0 5px; 
+	margin:10px 0; 
+	color:#364873; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:13px; 
+	line-height:20px;
+}
+.mcs_container .customScrollBox .content p.alt{
+	padding:10px 5px; 
+	margin:10px 0; 
+	color:#364873; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	font-size:17px; 
+	line-height:19px; 
+	color:#999;
+}
+.mcs_container .customScrollBox img{
+	border:5px solid #fff;
+}
+.mcs_container .dragger_container{
+	background: none repeat scroll 0 0 #999999;
+    border-radius: 2px 2px 2px 2px;
+    cursor: s-resize;
+    float: left;
+    height: 425px;
+    margin: 27px 0 0 10px;
+    position: relative;
+    width: 4px;
+	
+	}
+.mcs_container .dragger{
+	position:absolute; 
+	width:4px; 
+	height:60px; 
+	background:#000; 
+	text-align:center; 
+	line-height:60px; 
+	color:#666; 
+	overflow:hidden; 
+	cursor:pointer; 
+	-moz-border-radius:2px; 
+	-khtml-border-radius:2px; 
+	-webkit-border-radius:2px; 
+	border-radius:2px;
+}
+.mcs_container .dragger_pressed{
+	position:absolute; 
+	width:4px; 
+	margin-left:-1px; 
+	height:60px; 
+	background:#999; 
+	text-align:center; 
+	line-height:60px; 
+	color:#666; 
+	overflow:hidden; 
+	-moz-border-radius:4px; 
+	-khtml-border-radius:4px; 
+	-webkit-border-radius:4px; 
+	border-radius:4px; 
+	cursor:s-resize;
+}
+.mcs_container .scrollUpBtn,.mcs_container .scrollDownBtn{
+	position:absolute; 
+	display:inline-block; 
+	width:14px; 
+	height:15px; 
+	margin-right:11px; 
+	text-decoration:none; 
+	right:0; filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	-khtml-opacity:0.5; 
+	opacity:0.5;
+}
+.lof-scrollbar-gray .scrollUpBtn{
+    background: url(images/arrow.png) no-repeat transparent;
+    display: inline-block;
+    height: 21px;
+    margin-top: 7px;
+    text-decoration: none;
+    width: 19px;
+    margin-right: 5px;
+    line-height: 10px;    
+}
+.lof-scrollbar-gray .scrollDownBtn{
+    background:url(images/arrow.png) 0 -21px no-repeat transparent;
+    display: inline-block;
+    height: 21px;
+    margin-top: 7px;
+    text-decoration: none;
+    width: 19px;
+    line-height: 10px;
+}
+.mcs_container .scrollUpBtn:hover,.mcs_container .scrollDownBtn:hover{
+	filter:alpha(opacity=70); 
+	-moz-opacity:0.7; 
+	-khtml-opacity:0.7; 
+	opacity:0.7;
+}
+.mcs_container .dragger_container{display:none;}
+
+.lof-scrollbar-gray-pa{
+    position: relative;
+}
+.lof-parrent {
+	border: 1px dashed #D0D3D8;
+    border-radius: 4px 4px 4px 4px;
+	margin: 10px 0 0 10px;
+}
+
+.lof-parrent .lof-v-title{
+	margin: 5px 0 5px 10px;
+}
+.lof-parrent .lof-v-title h4{
+	color: #CC3300;
+	font-size: 15px;
+	font-family: "Lobster",Arial,Helvetica,sans-serif;
+}
+
+.lof-parrent .lof-form-compare .lof-compare{
+    background: none repeat scroll 0 0 #F6F6F1;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    color: #CC3300 !important;
+    cursor: pointer;
+    height: 19px;
+    margin-right: 5px;
+    min-width: 66px;
+    overflow: visible;
+    padding: 1px 10px 3px 10px;
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    width: auto;
+}
+
+.lof-parrent .lof-form-compare .lof-compare:hover{
+    background: none repeat scroll 0 0 #D0D3D8;
+}
+
+.lof-scrollbar-gray .lof-mod-title{
+    background: url(images/cont_heading_table.gif) repeat-x left center #999999;
+    color: white;
+    font-size: 1.27em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #666666; 
+    border-top: 1px solid #666666; 
+    height: 31px;      
+}
+.lof-scrollbar-gray .lof-mod-title span{
+    background: url(images/header.png) repeat-y left center transparent;
+    padding: 5px 5px 5px 16px;
+    display: block;
+    height: 33px;
+    line-height: 20px;
+}
+.lof-scrollbar-gray .products_block  ul  li{
+	list-style-type: none;
+}
+.lof-scrollbar-gray > .lof-toggler{        
+    cursor:hand;
+    cursor:pointer;
+    overflow:hidden;
+    border-bottom:1px dotted #DEDEDE;
+    font-size:105%;    
+    position:relative;
+    font-weight:bold;
+    color: #666666;
+}
+.lof-scrollbar-gray .lof-heder-left{
+    background:url(images/default.png) no-repeat scroll 0 0 transparent;    
+    width: 23px;
+    height: 32px;
+    float: left;
+}
+.lof-scrollbar-gray .lof-heder-right{
+    background:url(images/bannerr.png) repeat-x scroll 0 0 transparent;    
+    height: 32px;
+    width: 533px;
+    float: left;
+}
+.lof-scrollbar-gray .lof-heder-right span{
+    margin-left: 10px;
+    line-height: 32px;
+}
+.lof-scrollbar-gray .lof-toggler .lof-title a {
+	color:#656556;
+}
+.lof-scrollbar-gray .lof-title  {
+	height: 36px;
+    overflow: hidden;
+    margin: 0 0 5px;
+}
+.lof-scrollbar-gray .lof-toggler .lof-title a:visited  {
+	color:#474739;
+}
+
+.lof-scrollbar-gray > .lof-toggler img {
+    padding: 4px 0px 0 8px!important;
+    margin:0!important;
+    float:left
+}
+.lof-scrollbar-gray > .lof-toggler span.lof-title{
+    padding-left:12px;	  
+}
+.lof-scrollbar-gray > .lof-toggler span.lof-subdesc{
+    font-size:85%;
+    font-weight:normal
+}
+.lof-scrollbar-gray .lof-element{
+	overflow:hidden;
+    position: relative;
+}
+.lof-scrollbar-gray .lof-active .lof-heder-left{
+    background:url(images/default.png) no-repeat scroll 0 -32px transparent; 
+}
+.lof-scrollbar-gray .lof-active .lof-heder-right{
+    color: white;
+    background:url(images/bannerr.png) repeat-x scroll 0 -32px transparent;
+}
+.lof-scrollbar-gray .lof-inner{ padding-top:12px; padding:12px 5px 10px 5px}
+.lof-scrollbar-gray div.lof-title h5 a{
+    color: #E0E7EA !important;
+    font-size: 1.2em !important;
+}
+.lof-scrollbar-gray .lof-image{ margin:2px 5px; }
+.lof-scrollbar-gray .lof-title h5 a {color: #374853;font-size: 1.1em;}
+.lof-scrollbar-gray .lof-pro-left a{float: left;margin: 2px 5px !important;}
+.lof-scrollbar-gray .lof-pro-left div.lof-comparator{float: right;}
+.lof-scrollbar-gray .lof-inner{ padding-top:12px; padding:12px 5px 10px 5px; border: 1px solid #D0D3D8; margin-bottom: 5px;}
+.lof-scrollbar-gray .lof-item-1{ background-color:#F6F6F1;}
+.lof-scrollbar-gray .lof-item-0{ background-color:#fff; margin-top:0px}
+
+.lof-scrollbar-gray .lof-viewdetail{width: 100%;text-align: right;margin-bottom: 7px;width: 99%;}
+.lof-scrollbar-gray .lof-pro-left a.lof-addcart{    
+    background: url(images/button_marker.gif) no-repeat scroll left center #BA1010;
+    border: 1px solid #BA1010;
+    padding: 0 14px 0 12px;
+    cursor: pointer;
+    overflow: visible;
+    width: auto;
+    color: white;
+}
+.lof-scrollbar-gray .lof-h-button{    
+    
+}
+.lof-scrollbar-gray .lof-new{
+    background: url(images/status.png) 0 -97px no-repeat transparent;
+    position: absolute;
+    display: block;
+    width: 108px;
+    height: 98px;
+    top: 0;left: 0;
+}
+.lof-scrollbar-gray .lof-sale{
+    background: url(images/saleoff.png) no-repeat scroll 0 0 transparent;    
+    display: block;
+    height: 98px;
+    position: absolute;
+    right: 0;bottom: 0px;
+    width: 108px;
+}
+.lof-scrollbar-gray .lof-feature{
+    background: url(images/status.png) no-repeat transparent;
+    position: absolute;
+    display: block;
+    width: 108px;
+    height: 97px;
+    top: 0;left: 0;    
+}
+.lof-scrollbar-gray  a.lof-addcart{    
+    background: url(images/bgr_add_to_cart.png) no-repeat transparent;    
+    cursor: pointer;
+    overflow: visible;
+    width: 95px;
+    height: 21px;
+    color: white !important;
+	float: right;   
+    padding: 1px 2px;   
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+.lof-scrollbar-gray .lof-pro-left a.lof-view{
+    background: none no-repeat scroll left center #414141;
+    border: 1px solid #414141;
+    padding: 0 14px 0 12px;
+    cursor: pointer;
+    overflow: visible;
+    width: auto;
+    color: red !important;
+    min-width: 62px;
+}
+.lof-scrollbar-gray-pa a.lof-view{
+    background: url(images/bgr_view.png) no-repeat transparent;    
+    color: white !important;
+    cursor: pointer;      
+    overflow: visible;
+    padding: 0;    	
+    float: right;    
+    width: 46px;
+    height: 21px;
+}
+
+.lof-scrollbar-gray .lof-compare1{
+    background: none repeat scroll 0 0 #F6F6F1;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    color: #CC3300 !important;
+    cursor: pointer;
+    height: 19px;
+    margin-right: 5px;
+    min-width: 66px;
+    overflow: visible;
+    padding: 4px 3px 21px;
+    *padding: 0 3px 21px;
+    position: absolute;
+    right: 97px;
+    top: 23px;
+    width: auto;
+}
+.lof-scrollbar-gray .lof-compare1:hover{
+    background: none repeat scroll 0 0 #A1D800;
+}
+.lof-scrollbar-gray .lof-title-module{
+    left: 22px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.lof-scrollbar-gray .lof-title-hl{
+    background: url(images/headerlr.png) no-repeat 0 0 transparent;
+    width: 13px;
+    height: 39px;
+    float: left;
+}
+.lof-scrollbar-gray .lof-title-hr{
+    background: url(images/headerlr.png) no-repeat -13px 0 transparent;
+    width: 13px;
+    height: 39px;
+    float: left;
+}
+.lof-scrollbar-gray .lof-title-hm{
+    background: url(images/headermidd.png repeat-x 0 0 transparent;   
+    height: 39px;
+    min-width: 100px;
+    float: left;
+    text-align: center;
+}
+.lof-scrollbar-gray .lof-title-hm h4{
+    background: none !important;
+    border: none !important;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 39px;
+}
+.lof-scrollbar-gray .lof-title-button{
+    position: absolute;
+    right: 38px;
+    top: 18px
+}
+.lof-scrollbar-gray .lof-compare:hover{
+    background: url(images/bg_button.gif) no-repeat scroll 0 0 #202020;
+}
+.lof-scrollbar-gray INPUT.comparator{
+    margin-left:0px;
+    margin-top: 2px;
+}
+.lof-scrollbar-gray .lof-showcomparator1 label{
+    line-height: 12px;
+}
+
+.lof-scrollbar-gray .lof-viewdetail a{color: #374853;background:url(images/readmore.png) no-repeat right 0;padding:0 20px 1px 0;font-weight: bold;height: 17px;display: block;}
+.lof-scrollbar-gray .lof-price{background: url(images/sep_price.gif) no-repeat scroll right 5px transparent;float: left;width: 86px;margin-right: 10px;padding-right: 13px;}
+.lof-scrollbar-gray .lof-price1{
+    float: right;
+    font-size: 13px;
+    text-align: right;
+    width: 88px;   
+}
+.lof-scrollbar-gray .lof-price span.price{color: #A1D800!important;font-size: 1.27em!important;}
+.lof-scrollbar-gray .side-left-desc { background:url(images/side_desc.gif) 0 0 repeat-y #F6F6F1; margin:10px 0 11px 0;}
+.lof-scrollbar-gray .side-right-desc { background:url(images/side_desc.gif) right 0 repeat-y;}
+.lof-scrollbar-gray .side-top-desc { background:url(images/side_desc.gif) 0 0 repeat-x;}
+.lof-scrollbar-gray .side-bot-desc { background:url(images/side_desc.gif) 0 bottom repeat-x;}
+.lof-scrollbar-gray .lof-pro-name{
+    float: left;
+    width: 205px;
+    overflow: hidden;
+    display: inline-block;
+}
+.lof-scrollbar-gray .lof-pro-name a{
+    color: #E0E7EA;
+    font-family: 'Folks-Normal',Arial,sans-serif;
+    font-size: 15px;    
+    text-decoration: none;
+}
+.lof-scrollbar-gray .lof-sep{
+    color: white;
+    float: right;
+}
+.lof-scrollbar-gray .lof-showcomparator{float: left;padding-top: 5px;}
+.lof-scrollbar-gray .lof-showcomparator1{
+    color: white;
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;}
+.lof-scrollbar-gray .lof-img{width: 30%; text-align: center;float: left;}
+
+.lof-scrollbar-gray .lof-item-bg{
+    background: none repeat scroll 0 0 #000;
+    padding: 10px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.lof-scrollbar-gray .lof-item-bg:hover{
+    background: none repeat scroll 0 0 #424242; 
+}
+.lof-scrollbar-gray .lof-item-img{
+    box-shadow: 0 0 10px #212121 inset;
+    -moz-box-shadow: 0 0 10px #212121 inset;
+    -webkit-box-shadow: 0 0 10px #212121 inset;      
+    height: 226px;
+    margin-bottom: 3px;    
+    width: 295px;    
+    padding: 2px;
+}
+.lof-scrollbar-gray .lof-img1{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    min-height: 225px;
+    min-width: 295px;   
+}
+.lof-scrollbar-gray .lof-img1 img{
+      
+}
+.lof-scrollbar-gray ul li {
+	float: left;
+    list-style: none outside none;
+    margin: 18px 3px 5px;
+    width: 165px;
+}
+.lof-scrollbar-gray .lof-img a.product_image{ margin: 0 auto!important; }
+.lof-scrollbar-gray .lof-pro-left{float: left;width: 70%;}
+.lof-scrollbar-gray .left-top-desc{ background:url(images/left_top_desc.gif) left top no-repeat;}
+.left-top-desc{ background:url(../images/left_top_desc.gif) left top no-repeat;}
+.lof-scrollbar-gray .right-top-desc{ background:url(images/right_top_desc.gif) right top no-repeat;}
+.lof-scrollbar-gray .left-bot-desc{ background:url(images/left_bot_desc.gif) left bottom no-repeat;}
+.lof-scrollbar-gray .right-bot-desc{ background:url(images/right_bot_desc.gif) right bottom no-repeat; width:100%;}
+.lof-scrollbar-gray .desc {
+    color: #545454;
+    font-size: 12px;
+    line-height: 13px;
+    padding: 14px 5px 15px 16px;
+}
+.lof-scrollbar-gray .ajax_block_product{
+    background: url(images/sep_product_2.gif) repeat-x scroll left top transparent;
+    margin: 5px 10px;
+    padding: 15px 0 0;
+    position: relative;
+    display: block;
+    overflow: hidden;    
+}
+.lof-scrollbar-gray .first_item{
+    background: none repeat scroll 0 0 transparent;
+    padding: 5px 10px;
+}
+.lof-scrollbar-gray .lof-pro-left{
+    margin-bottom: 5px;
+}
+.lof-scrollbar-gray .lof-description h2,.lof-scrollbar-gray .lof-cms-item h2{
+     background: none repeat scroll 0 0 transparent;   
+    height: auto;
+    text-transform: none;
+}
+.lof-scrollbar-gray .lof-desc {    
+    background:url(images/bg-desc.png) right 0;
+    color: white;
+    font-size: 11px;
+    min-height: 39px;
+    text-align: left;
+    width: 96%;
+    padding: 2%;
+    z-index: 2;
+    left: 0;     
+}
+
+.lof-scrollbar-gray .efhover  .lof-desc{
+    position: absolute;
+    bottom:0;
+    display: none; 
+}
+.lof-scrollbar-gray .efupdown  .lof-desc{
+    position: absolute;
+    bottom:-200px; 
+} 
+
+.lof-scrollbar-gray .efupdown .lof-item-img{overflow:hidden;}
+.lof-scrollbar-gray .lof-desc DIV{
+    padding: 10px;
+}
+.lof-scrollbar-gray .lof-cmsc-title a{
+    color: #E85500;background:url(images/readmore.png) no-repeat right 0;padding:0 20px 1px 0;font-weight: bold;height: 16px;display: inline-block;line-height: 12px;
+}
+.lof-scrollbar-gray .lof-item{   
+    position: relative;
+    float: left;
+    height: 328px;
+    margin: 0 7px;
+    *margin: 0;
+    *padding: 50px 7px;
+    text-align: left;
+    width: 319px;
+    background:url(images/modulebg.png) transparent;
+}
+.lof-scrollbar-gray .lof-item-first{
+    margin: 0 7px 0 15px;*margin: 0;*padding-left: 12px;
+}
+.lof-scrollbar-gray .lof-cmsc-title{
+    background:none;
+	margin-left:10px;
+	
+}
+.lof-scrollbar-gray .lof-cmsc-title a{    
+	line-height: 14px;
+	text-decoration: none;
+	margin-top: 2px;
+}
+
+.lof-scrollbar-gray .lof-cmsc-title a:hover{
+	text-decoration:underline;
+}
+.lof-scrollbar-gray .mcs5_container{position:relative;margin:10px 0 0 0;}
+.lof-scrollbar-gray .customScrollBox{
+    position:relative; overflow:hidden;padding-top: 10px;height: 100%;
+}
+.mcs5_container .customScrollBox .horWrapper{position:relative; left:0;}
+.lof-scrollbar-gray .container{
+    padding: 50px 0;    
+    position:relative; left:0; display:inline-block; *display:inline;}
+.lof-scrollbar-gray .mcs5_container .customScrollBox .content{clear:both;*display: inline-block;}
+.mcs5_container .customScrollBox .content p{padding:5px; margin:0 5px;}
+.mcs5_container .customScrollBox .content p img{margin-right:5px;}
+.lof-scrollbar-gray .dragger_container{
+    position:relative;    
+    width:100%;       
+    height: 10px;        
+}
+.lof-scrollbar-gray .dragger{
+    background: none repeat scroll 0 0 #A1D800;
+    border-radius: 5px 8px 8px 6px;
+    cursor: pointer;
+    width: 60px;    
+    overflow: hidden;
+    position: absolute;
+    height: 10px;   
+}
+.lof-scrollbar-gray .dragger_pressed{
+    background: none repeat scroll 0 0 #A1D800;
+    border-radius: 5px 8px 8px 6px;
+    cursor: pointer;
+    width: 60px;    
+    overflow: hidden;
+    position: absolute;
+    height: 10px;    
+}
+
+.lof-scrollbar-gray-pa {
+	position:relative;
+}
+.lof-scrollbar-gray .lof-scroll-bottom{
+    background:url(images/bg-top.png) repeat-x 0 -10px;
+    margin-top: -22px;
+    height: 10px;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 6px 6px 6px 6px;    
+}
+.lof-scrollbar-gray .container{
+    background-color: #181818;
+    background:url(images/modulebg.png) transparent;     
+    height: 100%;
+    overflow: hidden;   
+}
+.lof-scrollbar-gray .item-bottom{
+    height: 23px;
+    padding-top: 10px;
+}
+.lof-scrollbar-gray .content{
+    background-color: #181818;      
+}

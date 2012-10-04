@@ -1,0 +1,374 @@
+@import url('../../../assets/fonts.css');
+.lof-slidingcaption-wrap.basic .clearfix {
+    margin:0 auto;
+    position: relative;
+}
+.lof-slidingcaption-wrap.basic a{
+    text-decoration:none;
+}
+.lof-slidingcaption-wrap.basic .sliding-features-home { 
+	padding:0 0 0 0;
+	width:100%;
+}
+
+.lof-slidingcaption-wrap.basic .sliding-features-home .featured {
+	margin-top:2px;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-features {
+    margin: 0 auto;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured li.classno {
+    font-size: 15px;
+    position: relative;
+    padding: 0;
+    margin: 0 20px 0 0;
+    float: left;
+    list-style-type: none;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured li.classborder {
+    font-size: 15px;
+    position: relative;
+    padding: 0;
+    margin: 0 0px 0 0 !important;
+    float: left;
+    list-style-type: none;
+}
+.lof-slidingcaption-wrap.basic .sliding-features-home .lof-sliding-featured li { margin-bottom: 10px }
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured li:last-child {}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured .lof-sliding-feature {
+    font-family: "Helvetica Nueue", Helvetica, Arial, sans-serif;
+    position: relative;
+    clear: left;
+    overflow: hidden;
+    padding: 0 0 10px 0;
+    background: url(images/featured-shadow.png) no-repeat bottom right;
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured .sliding-feature-shot {
+    padding: 5px;
+    background: #fff;
+    border: solid 1px #e4e4e4;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px;
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured.scroll .sliding-feature-over {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    margin: 0!important;
+    padding: 0px;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #888;
+    background: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured.scroll .sliding-feature-image {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured.push .sliding-feature-image-push {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured img {
+    margin: 0;
+    height: auto;
+    position: relative;
+}
+
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured .center {
+	display:table-cell; 
+	vertical-align:middle; 
+	width:100%;
+    position: relative;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured.push .center {
+    padding:5px 2px 2px;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured.scroll .center {
+    padding:5px 12px 2px;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured strong {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    font-family: 'CommunistRegular', sans-serif;
+   
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured .dim {
+    font-weight: bold;
+    font-size:13px;
+	display: block;
+	text-align: center;
+	color:#666666;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured .dim .lof-price{
+    color:#FF0000;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured .dim .lof-price-discount{
+    color:#A3A3A3;
+    text-decoration: line-through;
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured em {
+    font-size: 9px;
+    line-height: 1em;
+    font-style: normal;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top:4px;
+    text-transform: uppercase;
+    color:#999;
+    border-bottom:dotted 1px #e5e5e5;
+    border-top:dotted 1px #e5e5e5;
+    padding:5px 0;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured .sliding-desc{
+    line-height: 1.4em;
+    text-align: justify;
+}
+.lof-slidingcaption-wrap.basic .lof-sliding-featured .sliding-feature-content {
+    overflow: hidden;
+    position: relative;
+}
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured h2 {
+    padding: 0px 0 0 0;
+    margin: -5px 0 15px 0px;
+    color: #AAA;
+    float: left;
+}
+.lof-slidingcaption-wrap.basic .sliding-buttons{
+    position: relative;
+}
+.lof-slidingcaption-wrap.basic .sliding-buttons a.next, .lof-slidingcaption-wrap.basic .sliding-buttons a.prev{
+     text-indent:-9999px;
+   
+}
+.lof-slidingcaption-wrap.basic .sliding-buttons a.next{
+    position: absolute;
+    right:-50px;
+    background-image: url(images/navigation_buttons.png);
+     background-position: 0 -10px;
+     background-repeat: no-repeat;
+    height:36px;
+	width:50px;
+    z-index:9999;
+}
+.lof-slidingcaption-wrap.basic .sliding-buttons a.next:hover{
+     
+
+}
+.lof-slidingcaption-wrap.basic .sliding-buttons a.prev{
+    position: absolute;
+    left:-42px;
+     z-index: 9999;
+     background-image: url(images/navigation_buttons.png);
+     background-position: 0 -63px;
+     background-repeat: no-repeat;
+    height:36px;
+	width:50px;
+}
+.lof-slidingcaption-wrap.basic .sliding-buttons a.prev:hover{
+
+}
+
+.lof-slidingcaption-wrap.basic .bd_button{
+    background: none repeat scroll 0 0 #CCCCCC;
+    height: 23px;
+    margin-left: 0;
+    overflow: hidden;
+    padding-left: 8px;
+    padding-right: 0;
+    position: relative;
+    border-radius:5px 5px 5px 5px;
+    -moz-border-radius: 5px;  
+  	-khtml-border-radius: 5px;  
+ 	-webkit-border-radius: 5px;
+}
+.lof-slidingcaption-wrap.basic .lof-button-nav{
+    color: #FFFFFF;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    z-index: 99999;
+}
+.lof-slidingcaption-wrap.basic .lof-button-nav > a{
+    background-image: url("images/slideshow-dot.png");
+    background-position: 0 -15px;
+    background-repeat: no-repeat;
+    width:22px;
+    height:22px;
+    position: relative;
+    float:left;
+    list-style: none;
+    cursor: pointer;
+    text-indent:-9999px;
+}
+.lof-slidingcaption-wrap.basic .lof-button-nav > a.activeSlide{
+    background-image: url("images/slideshow-dot.png");
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+}
+.lof-slidingcaption-wrap.basic .scrollbutton{
+    position:relative;
+    height:42px;
+}
+
+.lof-slidingcaption-wrap.basic .lof-shadow {
+    background-image: url("images/shadow.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 13px;
+    width: 100%;
+}
+.lof-slidingcaption-wrap.basic .lof-title-image {
+    clear:both;
+    background-image: url("images/sliding-caption.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+    bottom: 0;
+    padding: 3px 6px;
+    position: absolute;
+    right: 0;
+}
+.lof-slidingcaption-wrap.basic .sliding-detail{
+    position: relative;
+    background: url(images/readmore.png) no-repeat;
+    margin-left:12px;
+    padding-left:20px;
+    text-decoration:none;
+}
+
+
+.lof-slidingcaption-wrap.basic .lof-sliding-featured.push .sliding-feature-over{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    margin: 0!important;
+    padding: 0px;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #888;
+    background: #fff;
+    cursor: pointer;
+}
+
+ul.slidingtabs-panel {
+    font-family: georgia,'palatino linotype',palatino,'times new roman',times,serif;
+    background: url('lof_bgr_tabs_title.gif') repeat-x scroll center bottom transparent;
+    overflow: hidden;
+    width: 100%;
+	padding:0!important;
+	margin:0;
+}
+.slidingtabs-panel li{
+    float: left;
+    font-size: 12px;
+    padding: 0 2px 0 0;
+    text-transform: uppercase;
+    height: 34px;
+    list-style: none;
+    line-height: 120%;
+    
+}
+
+li.lof-tab a {
+    background: url('lof_bgr_tabs_title_noactive.gif') repeat-x scroll 0 0 transparent;
+    color: #333333;
+    float: left;
+    height: 24px;
+    padding: 8px 10px 0;
+    text-decoration: none;
+    outline: none;
+}
+li.lof-tab a.active{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DDDDDD;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #333333;
+    height: 24px;
+    padding: 7px 10px 9px 9px;
+    outline: none;
+}
+li.lof-tab .remove {
+    color: #900;
+}
+
+.lof-content-tab{
+    height:auto;
+    border-color: #DDDDDD;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    padding: 9px 9px 0;
+    color:#555555;
+    font-family: georgia,'palatino linotype',palatino,'times new roman',times,serif;
+}
+.lof-parent-cat-title{
+    position: relative;
+    padding-bottom: 10px;
+}
+.lof-content-first-main{
+    position: relative;
+    padding-bottom:10px;
+    border-bottom: 1px #E9E9E9 solid;
+}
+.lof-content-main{
+    position: relative;
+    border:0px red solid;
+    height:auto;
+    margin-right:10px;
+   
+}
+
+.lof-content-main-item{
+    position: relative;
+    float:left;
+    padding-bottom:10px;
+}
+.lof-tabnews-content{
+    position: relative;
+}
+
+
+.lof-add-cart{
+    background: url(images/button_marker.gif) no-repeat scroll left center #BA1010;
+    background-color: #BA1010;
+    color:#FFFFFF;
+    padding: 0px 9px 0px 12px;
+    position: relative;
+    margin-left:10px;
+    
+}
+span.lof-add-cart-none{
+    color:#FFFFFF !important;
+    font-weight:bold;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+}

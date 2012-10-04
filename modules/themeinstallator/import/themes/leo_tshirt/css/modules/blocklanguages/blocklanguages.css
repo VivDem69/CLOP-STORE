@@ -1,0 +1,24 @@
+/* block top languages */
+#header_right #languages_block_top {
+	position:relative;
+	z-index:1;
+	padding: 6px 5px 6px 10px;
+	overflow: hidden;
+	float:right;
+	margin-top:15px;
+	background: url(../../../img/default/bg-current.png) repeat-x scroll 0 0 transparent;
+}
+#header_right #languages_block_top p { clear: left }
+#languages_block_top {
+	
+}
+#languages_block_top ul#first-languages li {
+	float: left;
+	margin-right: 3px;
+	color:#000;
+	line-height:1.7em;
+}
+#languages_block_top ul#first-languages li.selected_language {
+	float: left;
+	margin-right: 0.3em
+}

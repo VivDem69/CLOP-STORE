@@ -1,0 +1,86 @@
+.lofnew_control{
+   
+}
+.lofnew_control .lof-nav-prev{
+    padding-right: 10px;
+    cursor: pointer;
+}
+.lofnew_control .lof-nav-next{
+    cursor: pointer;
+}
+
+
+.lof-module-newproduct .lof-sale{
+	height: 50px;
+    position: absolute;
+    left: 0;
+	bottom:0;
+    width: 67px;
+    z-index: 2;
+}
+.lof-module-newproduct .lof-feature{
+    height: 55px;
+    position: absolute;    
+	left: -1px;
+	top:-1px;
+    width: 56px;
+    z-index: 2;	
+}
+.lof-module-newproduct .lof-new{
+	height: 55px;
+    position: absolute;
+    right: -1px;
+	top:-1px;
+    width: 56px;
+    z-index: 2;
+}
+.lof-module-newproduct .lof-online_only{
+	height: 77px;
+    position: absolute;
+    right: 0;
+	bottom:0;
+    width: 97px;
+    z-index: 2;
+}
+.lof-tabs-en .lof-sale{
+	background: url('images/en/saleoff.png') no-repeat scroll right bottom transparent;
+    
+}
+.lof-tabs-en .lof-feature{
+	background: url('images/en/feature.png') no-repeat scroll right bottom transparent;
+   
+}
+.lof-tabs-en .lof-new{
+	background: url('images/en/new.png') no-repeat scroll right bottom transparent;    	
+}
+.lof-tabs-en .lof-online_only{
+	background: url('images/en/online-only.png') no-repeat scroll right bottom transparent;   	
+}
+.lof-tabs-fr .lof-sale{
+	background: url('images/fr/saleoff.png') no-repeat scroll right bottom transparfrt;
+    
+}
+.lof-tabs-fr .lof-feature{
+	background: url('images/fr/feature.png') no-repeat scroll right bottom transparfrt;
+   
+}
+.lof-tabs-fr .lof-new{
+	background: url('images/fr/new.png') no-repeat scroll right bottom transparfrt;    	
+}
+.lof-tabs-fr .lof-online_only{
+	background: url('images/fr/online-only.png') no-repeat scroll right bottom transparfrt;   	
+}
+.lof-tabs-es .lof-sale{
+	background: url('images/es/saleoff.png') no-repeat scroll right bottom transparest;
+    
+}
+.lof-tabs-es .lof-feature{
+	background: url('images/es/feature.png') no-repeat scroll right bottom transparest;
+   
+}
+.lof-tabs-es .lof-new{
+	background: url('images/es/new.png') no-repeat scroll right bottom transparest;    	
+}
+.lof-tabs-es .lof-online_only{
+	background: url('images/es/online-only.png') no-repeat scroll right bottom transparest;   	
+}
